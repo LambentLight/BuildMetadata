@@ -32,7 +32,7 @@ def main():
             builds.append(node.attrib["title"])
 
     # Open a file for writing the builds
-    with open("fivem.json", "w") as output:
+    with open("builds.json", "w") as output:
         # Dump the list of builds
         json.dump(builds, output, indent=4)
         # And finally and a line at the end
