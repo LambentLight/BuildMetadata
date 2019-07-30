@@ -1,5 +1,32 @@
 [
     {
+        "name": "ghmattimysql",
+        "author": "GHMatti",
+        "folder": "ghmattimysql",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
+        "versions": [
+            {
+                "version": "1.2.1",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.1/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            },
+            {
+                "version": "1.2.0",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.0/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            },
+            {
+                "version": "1.1.0",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.1.0/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            }
+        ]
+    },
+    {
         "name": "Cops FiveM",
         "author": "Kyominii",
         "folder": "police",
