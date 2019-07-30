@@ -1,5 +1,20 @@
 [
     {
+        "name": "vSync",
+        "author": "TomGrobbe",
+        "folder": "vSync",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/TomGrobbe/vSync/master/LICENSE",
+        "versions": [
+            {
+                "version": "1.4.0",
+                "download": "https://github.com/TomGrobbe/vSync/releases/download/v1.4.0/vSync-1.4.0.zip",
+                "compression": 0,
+                "path": "vSync-1.4.0\\vSync"
+            }
+        ]
+    },
+    {
         "name": "vMenu",
         "author": "TomGrobbe",
         "folder": "vMenu",
