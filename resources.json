@@ -1,5 +1,35 @@
 [
     {
+        "name": "Cops FiveM",
+        "author": "Kyominii",
+        "folder": "police",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
+        "requires": [
+            "ghmattimysql"
+        ],
+        "versions": [
+            {
+                "version": "1.4.7",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.7.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.7\\police"
+            },
+            {
+                "version": "1.4.6",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.6.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.6\\police"
+            },
+            {
+                "version": "1.4.5",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.5.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.5\\police"
+            }
+        ]
+    },
+    {
         "name": "FRFuel",
         "author": "ESX",
         "folder": "frfuel",
