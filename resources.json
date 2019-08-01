@@ -1,5 +1,32 @@
 [
     {
+        "name": "EasyAdmin",
+        "author": "Blue",
+        "folder": "EasyAdmin",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/Bluethefurry/EasyAdmin/master/LICENSE.md",
+        "versions": [
+            {
+                "version": "4.91",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.91.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.91"
+            },
+            {
+                "version": "4.8",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.8.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.8"
+            },
+            {
+                "version": "4.7",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.7.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.7"
+            }
+        ]
+    },
+    {
         "name": "LiveMap",
         "author": "TGRHavoc",
         "folder": "live_map",
