@@ -1,5 +1,33 @@
 [
     {
+        "name": "mysql-async",
+        "author": "brouznouf",
+        "folder": "mysql-async",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/brouznouf/fivem-mysql-async/master/LICENSE",
+        "instructions": "https://github.com/brouznouf/fivem-mysql-async#configuration",
+        "versions": [
+            {
+                "version": "3.2.0",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.2.0.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.2.0"
+            },
+            {
+                "version": "3.1.1",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.1.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.1.1"
+            },
+            {
+                "version": "3.1.0",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.0.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.1.0"
+            }
+        ]
+    },
+    {
         "name": "ghmattimysql",
         "author": "GHMatti",
         "folder": "ghmattimysql",
