@@ -134,6 +134,7 @@
         "folder": "vMenu",
         "type": 0,
         "license": "https://raw.githubusercontent.com/TomGrobbe/vMenu/master/LICENSE.md",
+        "instructions": "https://docs.vespura.com/vmenu/installation/#installation-steps",
         "versions": [
             {
                 "version": "3.0.3",
