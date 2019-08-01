@@ -1,5 +1,61 @@
 [
     {
+        "name": "LiveMap",
+        "author": "TGRHavoc",
+        "folder": "live_map",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/TGRHavoc/live_map/master/license",
+        "instructions": "https://github.com/TGRHavoc/live_map#how-to-install",
+        "versions": [
+            {
+                "version": "2.3.4",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.4.zip",
+                "compression": 0,
+                "path": "live_map-2.3.4"
+            },
+            {
+                "version": "2.3.2",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.2.zip",
+                "compression": 0,
+                "path": "live_map-2.3.2"
+            },
+            {
+                "version": "2.3.1",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.1.zip",
+                "compression": 0,
+                "path": "live_map-2.3.1"
+            }
+        ]
+    },
+    {
+        "name": "Luxart Vehicle Control",
+        "author": "Lt.Caine",
+        "folder": "lux_vehcontrol",
+        "path": "lux_vehcontrol",
+        "type": 0,
+        "versions": [
+            {
+                "version": "1.01",
+                "download": "https://forum.fivem.net/uploads/default/original/2X/1/177659060c024f93bfa20450856734f5ea31ab52.rar",
+                "compression": 2
+            }
+        ]
+    },
+    {
+        "name": "mraes' Heli Script",
+        "author": "mraes",
+        "folder": "heli",
+        "path": "heli",
+        "type": 0,
+        "versions": [
+            {
+                "version": "1.0",
+                "download": "https://forum.fivem.net/uploads/default/original/2X/c/c32a4e8b175dae17b1b475b702d42d1bfd1869f1.zip",
+                "compression": 0
+            }
+        ]
+    },
+    {
         "name": "Wraith Radar System",
         "author": "WolfKnight",
         "folder": "wk_wrs",
