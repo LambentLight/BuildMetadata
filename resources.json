@@ -1,10 +1,303 @@
 [
     {
+        "name": "EasyAdmin",
+        "author": "Blue",
+        "folder": "EasyAdmin",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/Bluethefurry/EasyAdmin/master/LICENSE.md",
+        "versions": [
+            {
+                "version": "4.91",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.91.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.91"
+            },
+            {
+                "version": "4.8",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.8.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.8"
+            },
+            {
+                "version": "4.7",
+                "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.7.zip",
+                "compression": 0,
+                "path": "EasyAdmin-4.7"
+            }
+        ]
+    },
+    {
+        "name": "LiveMap",
+        "author": "TGRHavoc",
+        "folder": "live_map",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/TGRHavoc/live_map/master/license",
+        "instructions": "https://github.com/TGRHavoc/live_map#how-to-install",
+        "versions": [
+            {
+                "version": "2.3.4",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.4.zip",
+                "compression": 0,
+                "path": "live_map-2.3.4"
+            },
+            {
+                "version": "2.3.2",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.2.zip",
+                "compression": 0,
+                "path": "live_map-2.3.2"
+            },
+            {
+                "version": "2.3.1",
+                "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.1.zip",
+                "compression": 0,
+                "path": "live_map-2.3.1"
+            }
+        ]
+    },
+    {
+        "name": "Luxart Vehicle Control",
+        "author": "Lt.Caine",
+        "folder": "lux_vehcontrol",
+        "path": "lux_vehcontrol",
+        "type": 0,
+        "versions": [
+            {
+                "version": "1.01",
+                "download": "https://forum.fivem.net/uploads/default/original/2X/1/177659060c024f93bfa20450856734f5ea31ab52.rar",
+                "compression": 2
+            }
+        ]
+    },
+    {
+        "name": "mraes' Heli Script",
+        "author": "mraes",
+        "folder": "heli",
+        "path": "heli",
+        "type": 0,
+        "versions": [
+            {
+                "version": "1.0",
+                "download": "https://forum.fivem.net/uploads/default/original/2X/c/c32a4e8b175dae17b1b475b702d42d1bfd1869f1.zip",
+                "compression": 0
+            }
+        ]
+    },
+    {
+        "name": "Wraith Radar System",
+        "author": "WolfKnight",
+        "folder": "wk_wrs",
+        "path": "wk_wrs",
+        "type": 0,
+        "versions": [
+            {
+                "version": "1.0.2",
+                "download": "https://forum.fivem.net/uploads/default/original/3X/f/d/fd09a66fe910d8732eeaae371992908975b51bb6.zip",
+                "compression": 0
+            },
+            {
+                "version": "1.0.1",
+                "download": "https://forum.fivem.net/uploads/default/original/3X/b/1/b1f076bcdb3de2e99afa619f5ba55c4dac0165a6.zip",
+                "compression": 0
+            },
+            {
+                "version": "1.0.0",
+                "download": "https://forum.fivem.net/uploads/default/original/3X/d/a/da83ab94d97374807cce122d0811f50bc5f7a56c.zip",
+                "compression": 0
+            }
+        ]
+    },
+    {
+        "name": "Emergency Lighting System (ELS)",
+        "author": "MrDaGree",
+        "folder": "els",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/MrDaGree/ELS-FiveM/master/LICENSE",
+        "versions": [
+            {
+                "version": "1.75",
+                "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.75.zip",
+                "compression": 0,
+                "path": "ELS-FiveM-1.75"
+            },
+            {
+                "version": "1.7",
+                "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.75.zip",
+                "compression": 0,
+                "path": "ELS-FiveM-1.7"
+            },
+            {
+                "version": "1.1.3a Hotfix",
+                "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.1.3(a).zip",
+                "compression": 0,
+                "path": "ELS-FiveM-1.1.3-a-"
+            }
+        ]
+    },
+    {
+        "name": "mysql-async",
+        "author": "brouznouf",
+        "folder": "mysql-async",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/brouznouf/fivem-mysql-async/master/LICENSE",
+        "instructions": "https://github.com/brouznouf/fivem-mysql-async#configuration",
+        "versions": [
+            {
+                "version": "3.2.0",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.2.0.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.2.0"
+            },
+            {
+                "version": "3.1.1",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.1.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.1.1"
+            },
+            {
+                "version": "3.1.0",
+                "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.0.zip",
+                "compression": 0,
+                "path": "fivem-mysql-async-3.1.0"
+            }
+        ]
+    },
+    {
+        "name": "ghmattimysql",
+        "author": "GHMatti",
+        "folder": "ghmattimysql",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
+        "instructions": "https://github.com/GHMatti/ghmattimysql#configuration-via-configjson",
+        "versions": [
+            {
+                "version": "1.2.1",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.1/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            },
+            {
+                "version": "1.2.0",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.0/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            },
+            {
+                "version": "1.1.0",
+                "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.1.0/ghmattimysql.zip",
+                "compression": 0,
+                "path": "ghmattimysql"
+            }
+        ]
+    },
+    {
+        "name": "Cops FiveM",
+        "author": "Kyominii",
+        "folder": "police",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
+        "requires": [
+            "ghmattimysql"
+        ],
+        "versions": [
+            {
+                "version": "1.4.7",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.7.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.7\\police"
+            },
+            {
+                "version": "1.4.6",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.6.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.6\\police"
+            },
+            {
+                "version": "1.4.5",
+                "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.5.zip",
+                "compression": 0,
+                "path": "Cops_FiveM-1.4.5\\police"
+            }
+        ]
+    },
+    {
+        "name": "FRFuel",
+        "author": "ESX",
+        "folder": "frfuel",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/thers/FRFuel/master/LICENSE.md",
+        "versions": [
+            {
+                "version": "1.7.0",
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.7.0/frfuel_v1.7.0.zip",
+                "compression": 0
+            },
+            {
+                "version": "1.6.0",
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.6.0/frfuel_v1.6.0.zip",
+                "compression": 0
+            },
+            {
+                "version": "1.3.0",
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.3.0/frfuel_v1.3.0.zip",
+                "compression": 0
+            }
+        ]
+    },
+    {
+        "name": "async",
+        "author": "ESX",
+        "folder": "async",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/ESX-Org/async/master/LICENSE",
+        "versions": [
+            {
+                "version": "1.0.1",
+                "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.1.zip",
+                "compression": 0,
+                "path": "async-1.0.1"
+            },
+            {
+                "version": "1.0.0",
+                "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.0.zip",
+                "compression": 0,
+                "path": "async-1.0.0"
+            }
+        ]
+    },
+    {
+        "name": "vSync",
+        "author": "TomGrobbe",
+        "folder": "vSync",
+        "type": 0,
+        "license": "https://raw.githubusercontent.com/TomGrobbe/vSync/master/LICENSE",
+        "versions": [
+            {
+                "version": "1.4.0",
+                "download": "https://github.com/TomGrobbe/vSync/archive/v1.4.0.zip",
+                "compression": 0,
+                "path": "vSync-1.4.0\\vSync"
+            },
+            {
+                "version": "1.3.0",
+                "download": "https://github.com/TomGrobbe/vSync/archive/v1.3.0.zip",
+                "compression": 0,
+                "path": "vSync-1.3.0\\vSync"
+            },
+            {
+                "version": "1.2.1",
+                "download": "https://github.com/TomGrobbe/vSync/archive/v1.2.1.zip",
+                "compression": 0,
+                "path": "vSync-1.2.1\\vSync"
+            }
+        ]
+    },
+    {
         "name": "vMenu",
         "author": "TomGrobbe",
         "folder": "vMenu",
         "type": 0,
         "license": "https://raw.githubusercontent.com/TomGrobbe/vMenu/master/LICENSE.md",
+        "instructions": "https://docs.vespura.com/vmenu/installation/#installation-steps",
         "versions": [
             {
                 "version": "3.0.3",
@@ -19,171 +312,6 @@
             {
                 "version": "3.0.1",
                 "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.1/vMenu-v3.0.1.zip",
-                "compression": 0
-            },
-            {
-                "version": "3.0.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.0/vMenu-v3.0.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "3.0.0-beta3",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.0-beta3/vMenu-v3.0.0-beta3.zip",
-                "compression": 0
-            },
-            {
-                "version": "3.0.0-beta2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.0-beta2/vMenu-v3.0.0-beta2.zip",
-                "compression": 0
-            },
-            {
-                "version": "3.0.0-beta",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.0-beta/vMenu-v3.0.0-beta.zip",
-                "compression": 0
-            },
-            {
-                "version": "2.2.2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v2.2.2/vMenu-v2.2.2.zip",
-                "compression": 0
-            },
-            {
-                "version": "2.2.1",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v2.2.1/vMenu-v2.2.1.zip",
-                "compression": 0
-            },
-            {
-                "version": "2.2.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v2.2.0/vMenu-v2.2.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "2.1.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v2.1.0/vMenu-v2.1.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "2.0.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v2.0.0/vMenu-v2.0.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.5.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.5.0/vMenu-v1.5.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.4.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.4.0/vMenu-v1.4.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.3.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.3.0/vMenu-v1.3.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.2.2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.2.2/vMenu-v1.2.2.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.2.1",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.2.1/vMenu-v1.2.1.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.2.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.2.0/vMenu-v1.2.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.7",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.7/vMenu-v1.1.7.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.6",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.6/vMenu-v1.1.6.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.5",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.5/vMenu-v1.1.5.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.4",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.4/vMenu-v1.1.4.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.3",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.3/vMenu-v1.1.3.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.2/vMenu-v1.1.2.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.1",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.1/vMenu-v1.1.1.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.1.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.1.0/vMenu-v1.1.0.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.9",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.9/vMenu-v1.0.9.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.8",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.8/vMenu-v1.0.8.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.7",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.7/vMenu-v1.0.7.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.6",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.6/vMenu-v1.0.6.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.5",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.5/vMenu-v1.0.5.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.4",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.4/vMenu-v1.0.4.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.3",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.3/vMenu-v1.0.3.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.2/vMenu-v1.0.2.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.1",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.1/vMenu-v1.0.1.zip",
-                "compression": 0
-            },
-            {
-                "version": "1.0.0",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v1.0.0/vMenu-v1.0.0.zip",
                 "compression": 0
             }
         ]
