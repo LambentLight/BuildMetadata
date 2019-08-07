@@ -1,5 +1,23 @@
 [
     {
+        "name": "vRP",
+        "author": "ImagicTheCat",
+        "folder": "vrp",
+        "license": "https://raw.githubusercontent.com/ImagicTheCat/vRP/master/LICENSE",
+        "versions": [
+            {
+                "version": "2.0 (c33ed0d0a6228e4438fa53cdf90128379844380d)",
+                "download": "https://github.com/ImagicTheCat/vRP/archive/c33ed0d0a6228e4438fa53cdf90128379844380d.zip",
+                "path": "vRP-c33ed0d0a6228e4438fa53cdf90128379844380d\\vrp"
+            },
+            {
+                "version": "1.0",
+                "download": "https://github.com/ImagicTheCat/vRP/archive/1.0.zip",
+                "path": "vRP-1.0\\vrp"
+            }
+        ]
+    },
+    {
         "name": "NativeUI Lua Reloaded",
         "author": "iTexZoz",
         "folder": "NativeUI",
