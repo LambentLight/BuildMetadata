@@ -3,7 +3,6 @@
         "name": "EasyAdmin",
         "author": "Blue",
         "folder": "EasyAdmin",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/Bluethefurry/EasyAdmin/master/LICENSE.md",
         "versions": [
             {
@@ -30,7 +29,6 @@
         "name": "LiveMap",
         "author": "TGRHavoc",
         "folder": "live_map",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/TGRHavoc/live_map/master/license",
         "instructions": "https://github.com/TGRHavoc/live_map#how-to-install",
         "versions": [
@@ -59,7 +57,6 @@
         "author": "Lt.Caine",
         "folder": "lux_vehcontrol",
         "path": "lux_vehcontrol",
-        "type": 0,
         "versions": [
             {
                 "version": "1.01",
@@ -73,7 +70,6 @@
         "author": "mraes",
         "folder": "heli",
         "path": "heli",
-        "type": 0,
         "versions": [
             {
                 "version": "1.0",
@@ -87,7 +83,6 @@
         "author": "WolfKnight",
         "folder": "wk_wrs",
         "path": "wk_wrs",
-        "type": 0,
         "versions": [
             {
                 "version": "1.0.2",
@@ -110,7 +105,6 @@
         "name": "Emergency Lighting System (ELS)",
         "author": "MrDaGree",
         "folder": "els",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/MrDaGree/ELS-FiveM/master/LICENSE",
         "versions": [
             {
@@ -137,7 +131,6 @@
         "name": "mysql-async",
         "author": "brouznouf",
         "folder": "mysql-async",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/brouznouf/fivem-mysql-async/master/LICENSE",
         "instructions": "https://github.com/brouznouf/fivem-mysql-async#configuration",
         "versions": [
@@ -165,7 +158,6 @@
         "name": "ghmattimysql",
         "author": "GHMatti",
         "folder": "ghmattimysql",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
         "instructions": "https://github.com/GHMatti/ghmattimysql#configuration-via-configjson",
         "versions": [
@@ -193,7 +185,6 @@
         "name": "Cops FiveM",
         "author": "Kyominii",
         "folder": "police",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/FiveM-Scripts/Cops_FiveM/master/LICENSE",
         "requires": [
             "ghmattimysql"
@@ -223,7 +214,6 @@
         "name": "FRFuel",
         "author": "ESX",
         "folder": "frfuel",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/thers/FRFuel/master/LICENSE.md",
         "versions": [
             {
@@ -247,7 +237,6 @@
         "name": "async",
         "author": "ESX",
         "folder": "async",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/ESX-Org/async/master/LICENSE",
         "versions": [
             {
@@ -268,7 +257,6 @@
         "name": "vSync",
         "author": "TomGrobbe",
         "folder": "vSync",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/TomGrobbe/vSync/master/LICENSE",
         "versions": [
             {
@@ -295,7 +283,6 @@
         "name": "vMenu",
         "author": "TomGrobbe",
         "folder": "vMenu",
-        "type": 0,
         "license": "https://raw.githubusercontent.com/TomGrobbe/vMenu/master/LICENSE.md",
         "instructions": "https://docs.vespura.com/vmenu/installation/#installation-steps",
         "versions": [
