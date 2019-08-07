@@ -30,6 +30,10 @@
         "author": "ESX",
         "folder": "es_extended",
         "license": "https://raw.githubusercontent.com/ESX-Org/es_extended/master/LICENSE",
+        "requires": [
+            "mysql-async",
+            "async"
+        ],
         "versions": [
             {
                 "version": "1.1.0",
@@ -45,6 +49,21 @@
                 "version": "1.0.13",
                 "download": "https://github.com/ESX-Org/es_extended/archive/1.0.13.zip",
                 "path": "es_extended-1.0.13"
+            }
+        ]
+    },
+    {
+        "name": "MySQL for EssentialMode",
+        "author": "kanersps",
+        "folder": "esplugin_mysql",
+        "requires": [
+            "mysql-async"
+        ],
+        "versions": [
+            {
+                "version": "d63509c1500863d3d00930619bd00e9489daa2c3",
+                "download": "https://github.com/kanersps/esplugin_mysql/archive/d63509c1500863d3d00930619bd00e9489daa2c3.zip",
+                "path": "essentialmode-d63509c1500863d3d00930619bd00e9489daa2c3"
             }
         ]
     },
