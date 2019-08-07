@@ -1,5 +1,36 @@
 [
     {
+        "name": "SecurityCams for ESX",
+        "author": "LifeGoal",
+        "folder": "esx_securitycams",
+        "license": "https://raw.githubusercontent.com/creativecommons/legalcode/master/by-nc-nd_4.0.txt",
+        "versions": [
+            {
+                "version": "5ec42c77d844f6f5f937c6e8c9b9e65de3c14103",
+                "download": "https://github.com/LifeGoal/esx_securitycam/archive/5ec42c77d844f6f5f937c6e8c9b9e65de3c14103.zip",
+                "path": "esx_securitycam-5ec42c77d844f6f5f937c6e8c9b9e65de3c14103"
+            },
+            {
+                "version": "2.0.1",
+                "download": "https://github.com/LifeGoal/esx_securitycam/archive/2.0.1.zip",
+                "path": "esx_securitycam-2.0.1"
+            }
+        ]
+    },
+    {
+        "name": "SecurityCams",
+        "author": "xander1998",
+        "folder": "securitycams",
+        "license": "https://raw.githubusercontent.com/creativecommons/legalcode/master/by-nc-nd_4.0.txt",
+        "versions": [
+            {
+                "version": "9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0",
+                "download": "https://github.com/xander1998/securitycams/archive/9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0.zip",
+                "path": "securitycams-9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0"
+            }
+        ]
+    },
+    {
         "name": "vRP",
         "author": "ImagicTheCat",
         "folder": "vrp",
