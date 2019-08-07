@@ -8,19 +8,16 @@
             {
                 "version": "4.91",
                 "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.91.zip",
-                "compression": 0,
                 "path": "EasyAdmin-4.91"
             },
             {
                 "version": "4.8",
                 "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.8.zip",
-                "compression": 0,
                 "path": "EasyAdmin-4.8"
             },
             {
                 "version": "4.7",
                 "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.7.zip",
-                "compression": 0,
                 "path": "EasyAdmin-4.7"
             }
         ]
@@ -35,19 +32,16 @@
             {
                 "version": "2.3.4",
                 "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.4.zip",
-                "compression": 0,
                 "path": "live_map-2.3.4"
             },
             {
                 "version": "2.3.2",
                 "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.2.zip",
-                "compression": 0,
                 "path": "live_map-2.3.2"
             },
             {
                 "version": "2.3.1",
                 "download": "https://github.com/TGRHavoc/live_map/archive/v2.3.1.zip",
-                "compression": 0,
                 "path": "live_map-2.3.1"
             }
         ]
@@ -73,8 +67,7 @@
         "versions": [
             {
                 "version": "1.0",
-                "download": "https://forum.fivem.net/uploads/default/original/2X/c/c32a4e8b175dae17b1b475b702d42d1bfd1869f1.zip",
-                "compression": 0
+                "download": "https://forum.fivem.net/uploads/default/original/2X/c/c32a4e8b175dae17b1b475b702d42d1bfd1869f1.zip"
             }
         ]
     },
@@ -86,18 +79,15 @@
         "versions": [
             {
                 "version": "1.0.2",
-                "download": "https://forum.fivem.net/uploads/default/original/3X/f/d/fd09a66fe910d8732eeaae371992908975b51bb6.zip",
-                "compression": 0
+                "download": "https://forum.fivem.net/uploads/default/original/3X/f/d/fd09a66fe910d8732eeaae371992908975b51bb6.zip"
             },
             {
                 "version": "1.0.1",
-                "download": "https://forum.fivem.net/uploads/default/original/3X/b/1/b1f076bcdb3de2e99afa619f5ba55c4dac0165a6.zip",
-                "compression": 0
+                "download": "https://forum.fivem.net/uploads/default/original/3X/b/1/b1f076bcdb3de2e99afa619f5ba55c4dac0165a6.zip"
             },
             {
                 "version": "1.0.0",
-                "download": "https://forum.fivem.net/uploads/default/original/3X/d/a/da83ab94d97374807cce122d0811f50bc5f7a56c.zip",
-                "compression": 0
+                "download": "https://forum.fivem.net/uploads/default/original/3X/d/a/da83ab94d97374807cce122d0811f50bc5f7a56c.zip"
             }
         ]
     },
@@ -110,19 +100,16 @@
             {
                 "version": "1.75",
                 "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.75.zip",
-                "compression": 0,
                 "path": "ELS-FiveM-1.75"
             },
             {
                 "version": "1.7",
                 "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.75.zip",
-                "compression": 0,
                 "path": "ELS-FiveM-1.7"
             },
             {
                 "version": "1.1.3a Hotfix",
                 "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.1.3(a).zip",
-                "compression": 0,
                 "path": "ELS-FiveM-1.1.3-a-"
             }
         ]
@@ -137,19 +124,16 @@
             {
                 "version": "3.2.0",
                 "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.2.0.zip",
-                "compression": 0,
                 "path": "fivem-mysql-async-3.2.0"
             },
             {
                 "version": "3.1.1",
                 "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.1.zip",
-                "compression": 0,
                 "path": "fivem-mysql-async-3.1.1"
             },
             {
                 "version": "3.1.0",
                 "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.0.zip",
-                "compression": 0,
                 "path": "fivem-mysql-async-3.1.0"
             }
         ]
@@ -164,19 +148,16 @@
             {
                 "version": "1.2.1",
                 "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.1/ghmattimysql.zip",
-                "compression": 0,
                 "path": "ghmattimysql"
             },
             {
                 "version": "1.2.0",
                 "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.0/ghmattimysql.zip",
-                "compression": 0,
                 "path": "ghmattimysql"
             },
             {
                 "version": "1.1.0",
                 "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.1.0/ghmattimysql.zip",
-                "compression": 0,
                 "path": "ghmattimysql"
             }
         ]
@@ -193,19 +174,16 @@
             {
                 "version": "1.4.7",
                 "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.7.zip",
-                "compression": 0,
                 "path": "Cops_FiveM-1.4.7\\police"
             },
             {
                 "version": "1.4.6",
                 "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.6.zip",
-                "compression": 0,
                 "path": "Cops_FiveM-1.4.6\\police"
             },
             {
                 "version": "1.4.5",
                 "download": "https://github.com/FiveM-Scripts/Cops_FiveM/archive/1.4.5.zip",
-                "compression": 0,
                 "path": "Cops_FiveM-1.4.5\\police"
             }
         ]
@@ -218,18 +196,15 @@
         "versions": [
             {
                 "version": "1.7.0",
-                "download": "https://github.com/thers/FRFuel/releases/download/v1.7.0/frfuel_v1.7.0.zip",
-                "compression": 0
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.7.0/frfuel_v1.7.0.zip"
             },
             {
                 "version": "1.6.0",
-                "download": "https://github.com/thers/FRFuel/releases/download/v1.6.0/frfuel_v1.6.0.zip",
-                "compression": 0
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.6.0/frfuel_v1.6.0.zip"
             },
             {
                 "version": "1.3.0",
-                "download": "https://github.com/thers/FRFuel/releases/download/v1.3.0/frfuel_v1.3.0.zip",
-                "compression": 0
+                "download": "https://github.com/thers/FRFuel/releases/download/v1.3.0/frfuel_v1.3.0.zip"
             }
         ]
     },
@@ -242,13 +217,11 @@
             {
                 "version": "1.0.1",
                 "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.1.zip",
-                "compression": 0,
                 "path": "async-1.0.1"
             },
             {
                 "version": "1.0.0",
                 "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.0.zip",
-                "compression": 0,
                 "path": "async-1.0.0"
             }
         ]
@@ -262,19 +235,16 @@
             {
                 "version": "1.4.0",
                 "download": "https://github.com/TomGrobbe/vSync/archive/v1.4.0.zip",
-                "compression": 0,
                 "path": "vSync-1.4.0\\vSync"
             },
             {
                 "version": "1.3.0",
                 "download": "https://github.com/TomGrobbe/vSync/archive/v1.3.0.zip",
-                "compression": 0,
                 "path": "vSync-1.3.0\\vSync"
             },
             {
                 "version": "1.2.1",
                 "download": "https://github.com/TomGrobbe/vSync/archive/v1.2.1.zip",
-                "compression": 0,
                 "path": "vSync-1.2.1\\vSync"
             }
         ]
@@ -288,18 +258,15 @@
         "versions": [
             {
                 "version": "3.0.3",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.3/vMenu-v3.0.3.zip",
-                "compression": 0
+                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.3/vMenu-v3.0.3.zip"
             },
             {
                 "version": "3.0.2",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.2/vMenu-v3.0.2.zip",
-                "compression": 0
+                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.2/vMenu-v3.0.2.zip"
             },
             {
                 "version": "3.0.1",
-                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.1/vMenu-v3.0.1.zip",
-                "compression": 0
+                "download": "https://github.com/TomGrobbe/vMenu/releases/download/v3.0.1/vMenu-v3.0.1.zip"
             }
         ]
     }
