@@ -1,5 +1,50 @@
 [
     {
+        "name": "NativeUI Lua Reloaded",
+        "author": "iTexZoz",
+        "folder": "NativeUI",
+        "license": "https://raw.githubusercontent.com/iTexZoz/NativeUILua_Reloaded/master/LICENSE.md",
+        "versions": [
+            {
+                "version": "2.0.0",
+                "download": "https://github.com/iTexZoz/NativeUILua_Reloaded/archive/2.0.0.zip",
+                "path": "NativeUILua_Reloaded-2.0.0"
+            },
+            {
+                "version": "1.0.7",
+                "download": "https://github.com/iTexZoz/NativeUILua_Reloaded/archive/1.0.7.zip",
+                "path": "NativeUILua_Reloaded-1.0.7"
+            },
+            {
+                "version": "1.0.6",
+                "download": "https://github.com/iTexZoz/NativeUILua_Reloaded/archive/1.0.6.zip",
+                "path": "NativeUILua_Reloaded-1.0.6"
+            }
+        ]
+    },
+    {
+        "name": "NativeUI Lua (Deprecated)",
+        "author": "FrazzIe",
+        "folder": "NativeUI",
+        "versions": [
+            {
+                "version": "2.1.0",
+                "download": "https://github.com/FrazzIe/NativeUILua/archive/2.1.0.zip",
+                "path": "NativeUILua-2.1.0\\NativeUI"
+            },
+            {
+                "version": "2.0.0",
+                "download": "https://github.com/FrazzIe/NativeUILua/archive/2.0.0.zip",
+                "path": "NativeUILua-2.0.0\\NativeUI"
+            },
+            {
+                "version": "1.1.0",
+                "download": "https://github.com/FrazzIe/NativeUILua/archive/1.1.0.zip",
+                "path": "NativeUILua-1.1.0\\NativeUI"
+            }
+        ]
+    },
+    {
         "name": "EasyAdmin",
         "author": "Blue",
         "folder": "EasyAdmin",
