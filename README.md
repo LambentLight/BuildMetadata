@@ -9,10 +9,10 @@ This is a repository that contains the list of FiveM builds and installable reso
 To update the list of FiveM builds, follow this steps:
 
 1. Install Python 3.5 or higher and lxml (use `python -m pip install lxml`)
-2. Go to https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/ and complete the captcha
-3. Save the page from your browser as `fivem.html` on the root of this repository
-4. Open a Terminal from the root of the repo and run `python tools/builds.py`
-5. `builds.json` should now be updated and ready to be commited or used
+2. Go to https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/ for Windows or https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/ for Linux and complete the captcha
+3. Save the page from your browser as `windows.html` for Windows or `linux.html` for Linux on the root of this repository
+4. Open a Terminal from the root of the repo and run `convert.bat`
+5. `builds.json` and `builds.linux.json` should now be updated and ready to be commited or used
 
 ## Resources
 
