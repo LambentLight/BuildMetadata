@@ -2,7 +2,7 @@
 
 This is a repository that contains the list of FiveM builds and installable resources for LambentLight.
 
-# Updating the Metadata
+# Guidelines
 
 ## Builds
 
@@ -28,9 +28,9 @@ To add new resources, first make sure that:
 
 Once the resource complies with the already mentioned prerequisites, do the following to add it into the list:
 
-1. Add a new object **at the top** of `resources.json` with the resource information
-2. Create a pull request for every single resource (if you want to add 10 resources, you need to open 10 pull requests for every single one of them)
-3. Wait for the team to aprove the new resource
+1. Pick either a Resource per Commit or Resource per Pull Request
+2. Add a new object **at the top** of `resources.json` with the resource information
+3. Wait for the team to aprove the new Resource(s)
 
 # JSON formats
 
