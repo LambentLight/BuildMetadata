@@ -5,7 +5,7 @@ on:
     - cron: "*/15 * * * *"
 
 jobs:
-  "Build Updating":
+  Updating:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout the master branch
