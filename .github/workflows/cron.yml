@@ -25,4 +25,4 @@ jobs:
       - name: Add and Commit the changes
         run: git add *.json && git commit -m "GitHub Actions - Updated list of builds"
       - name: Push the changes
-        run: git push -u origin master
+        run: git push origin HEAD:master
