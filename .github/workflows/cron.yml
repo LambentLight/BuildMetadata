@@ -12,8 +12,6 @@ jobs:
         uses: actions/checkout@v1
         with:
           ref: master
-      - name: Change the User Name and Email on git
-        run: git config --global user.name "GitHub Actions" && git config --global user.email "actions@github.com"
       - name: Set git to commit Linux like line endings
         run: git config --global core.autocrlf true
       - name: Install lxml 4.4.1
@@ -22,7 +20,10 @@ jobs:
         run: curl "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" -o windows.html && python3.6 tools/builds.py windows.html builds.json
       - name: Download and Parse the Linux Builds
         run: curl "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/" -o linux.html && python3.6 tools/builds.py linux.html builds.linux.json
-      - name: Add and Commit the changes
-        run: git add *.json && git commit -m "GitHub Actions - Updated list of builds"
-      - name: Push the changes
-        run: git push origin HEAD:master
+      - name: Commit and Push the changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add *.json
+          git commit -m "GitHub Actions - Updated list of builds"
+          git push origin HEAD:master
