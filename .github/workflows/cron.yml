@@ -20,9 +20,10 @@ jobs:
         run: curl "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" -o windows.html && python3.6 tools/builds.py windows.html builds.json
       - name: Download and Parse the Linux Builds
         run: curl "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/" -o linux.html && python3.6 tools/builds.py linux.html builds.linux.json
-      - name: Commit and Push the changes
-        uses: docker://cdssnc/auto-commit-github-action
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_EPG_BOT_TOKEN }}
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v2.1.0
         with:
-          args: "GitHub Actions - Updated list of Builds"
+          commit_message: Added updated list of Builds for Linux and Windows systems
+          branch: master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
