@@ -12,7 +12,7 @@ def main():
     """
     # If the number of argument is not three
     if len(sys.argv) != 3:
-        print("Wrong number of arguments. Expected 3, got " + len(sys.argv))
+        print(f"Wrong number of arguments. Expected 3, got {len(sys.argv)}")
         sys.exit(2)
 
     # First we need to check that the file with the HTML exists
