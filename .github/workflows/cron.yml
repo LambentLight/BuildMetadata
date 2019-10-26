@@ -1,0 +1,29 @@
+name: Automatic Build Updater
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  Updating:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout the master branch
+        uses: actions/checkout@v1
+        with:
+          ref: master
+      - name: Set git to commit Linux like line endings
+        run: git config --global core.autocrlf true
+      - name: Install lxml 4.4.1
+        run: python3.6 -m pip install lxml==4.4.1
+      - name: Download and Parse the Windows Builds
+        run: curl "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" -o windows.html && python3.6 tools/builds.py windows.html builds.json
+      - name: Download and Parse the Linux Builds
+        run: curl "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/" -o linux.html && python3.6 tools/builds.py linux.html builds.linux.json
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v2.1.0
+        with:
+          commit_message: Added updated list of Builds for Linux and Windows systems
+          branch: master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
