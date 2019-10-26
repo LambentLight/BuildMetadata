@@ -1,8 +1,13 @@
 # The libraries that we need for parsing the page
 import json
-import lxml.html
 import os
+import re
 import sys
+
+import lxml.html
+
+# For more information, see https://regexr.com/4nl34
+REGEX = "\\.\\/([0-9]{3,4}-[0-9a-z]{40})\\/(server\\.zip|fx\\.tar\\.xz)"
 
 
 def main():
@@ -24,17 +29,20 @@ def main():
     # Load the contents into the lxml parser
     html = lxml.html.parse(sys.argv[1])
     # Get the a nodes
-    a_nodes = html.xpath("//a")
+    a_nodes = html.xpath("//a[@class='panel-block ']")
 
     # Create a list for storing our builds
     builds = []
 
     # For each a node that we have
     for node in a_nodes:
-        # If it has a title attribute and is not "revoked"
-        if "title" in node.attrib and node.attrib["title"] != "revoked":
+        # Try to search the respective regex on the href
+        regex = re.search(REGEX, node.attrib.get("href", ""))
+
+        # If the regex was able to find the group
+        if regex is not None and regex.group(1):
             # Add the item into our list
-            builds.append(node.attrib["title"])
+            builds.append(regex.group(1))
 
     # Open a file for writing the builds
     with open(sys.argv[2], "w") as output:
