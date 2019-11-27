@@ -11,7 +11,7 @@ REGEX = "\\.\\/([0-9]{3,4}-[0-9a-z]{40})\\/(server\\.zip|fx\\.tar\\.xz)"
 # The URLs of the pages that contain the list of resources
 PAGES = {
     "fivem": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/",
-    "fivem.linux": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/",
+    "fivem.linux": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/",
     "redm": "https://runtime.fivem.net/artifacts/fivem/build_client_rdr3/master/",
 }
 
