@@ -8,12 +8,17 @@ import lxml.html
 
 # For more information, see https://regexr.com/4nl34
 REGEX = "\\.\\/([0-9]{3,4}-[0-9a-z]{40})\\/(server\\.zip|fx\\.tar\\.xz)"
+# The URLs of the pages that contain the list of resources
+PAGES = {
+    "fivem": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/",
+    "fivem.linux": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/",
+    "redm": "https://runtime.fivem.net/artifacts/fivem/build_client_rdr3/master/",
+}
 
 
 def main():
     """
-    The function that parses the FiveM page into
-    JSON that LambentLight/ServerManager can read.
+    Downloads and Parses the FiveM and RedM builds into JSON lists.
     """
     # If the number of argument is not three
     if len(sys.argv) != 3:
