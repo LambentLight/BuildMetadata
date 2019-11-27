@@ -1,10 +1,9 @@
 # The libraries that we need for parsing the page
 import json
-import os
 import re
-import sys
 
 import lxml.html
+import requests
 
 # For more information, see https://regexr.com/4nl34
 REGEX = "\\.\\/([0-9]{3,4}-[0-9a-z]{40})\\/(server\\.zip|fx\\.tar\\.xz)"
@@ -16,23 +15,35 @@ PAGES = {
 }
 
 
-def main():
+def generate_builds():
     """
     Downloads and Parses the FiveM and RedM builds into JSON lists.
     """
-    # If the number of argument is not three
-    if len(sys.argv) != 3:
-        print(f"Wrong number of arguments. Expected 3, got {len(sys.argv)}")
-        sys.exit(2)
+    # Iterate over the web pages available
+    for filename, url in PAGES.items():
+        # Make the web request for the URL
+        req = requests.get(url)
+        # If we got a non 200, continue to the next iteration
+        if req.status_code != 200:
+            print(f"Got code {req.status_code}")
+            continue
 
-    # First we need to check that the file with the HTML exists
-    if not os.path.isfile(sys.argv[1]):
-        # Print a message and exit with a code 2
-        print("The file with the builds does not exists!")
-        sys.exit(3)
+        # Try to get the parsed list of builds
+        builds = parse_builds(req.text)
+        # Then, open a file with the correct name
+        with open(f"builds/{filename}.json", "w") as file:
+            # Dump the list as a JSON
+            json.dump(builds, file, indent=4)
+            # And write a new line at the end
+            file.write("\n")
 
+
+def parse_builds(text):
+    """
+    Gets the list of builds from the HTML page in a string.
+    """
     # Load the contents into the lxml parser
-    html = lxml.html.parse(sys.argv[1])
+    html = lxml.html.fromstring(text)
     # Get the a nodes
     a_nodes = html.xpath("//a[@class='panel-block ']")
 
@@ -49,14 +60,5 @@ def main():
             # Add the item into our list
             builds.append(regex.group(1))
 
-    # Open a file for writing the builds
-    with open(sys.argv[2], "w") as output:
-        # Dump the list of builds
-        json.dump(builds, output, indent=4)
-        # And finally and a line at the end
-        output.write("\n")
-
-
-# If we are running the script as standalone (aka no importing)
-if __name__ == "__main__":
-    main()
+    # Finally, return the list of builds
+    return builds
