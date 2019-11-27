@@ -15,7 +15,7 @@ jobs:
       - name: Set git to commit Linux like line endings
         run: git config --global core.autocrlf true
       - name: Install lxml 4.4.1
-        run: python3.6 -m pip install lxml==4.4.1
+        run: python3.6 -m pip install -r requirements.txt
       - name: Download and Parse the Windows Builds
         run: curl "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/" -o windows.html && python3.6 tools/builds.py windows.html builds.json
       - name: Download and Parse the Linux Builds
