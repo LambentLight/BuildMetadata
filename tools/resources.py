@@ -44,8 +44,9 @@ def update_versions():
                 # Request the list of releases to GitHub and save them
                 data["versions"] = get_releases(*data["update"]["parameters"], excluded=data["update"].get("except", []))
 
-            # Seek back to the start of the file
+            # Remove everything and go back to the start of the file
             opened.seek(0)
+            opened.truncate()
             # And dump the new file contents
             json.dump(data, opened, indent=4)
             # And finally add a new line at the end
