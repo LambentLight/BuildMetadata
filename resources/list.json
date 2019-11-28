@@ -2,5 +2,9 @@
     {
         "name": "vMenu",
         "author": "TomGrobbe"
+    },
+    {
+        "name": "vSync",
+        "author": "TomGrobbe"
     }
 ]
