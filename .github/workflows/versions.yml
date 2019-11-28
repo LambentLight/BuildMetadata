@@ -5,7 +5,7 @@ on:
     - cron: "*/15 * * * *"
 
 jobs:
-  Updating:
+  versions:
     runs-on: ubuntu-18.04
     steps:
       - name: Fetch the master branch
