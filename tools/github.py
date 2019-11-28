@@ -4,7 +4,7 @@ DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 
 
-def get_releases(owner, repo, skip=[]):
+def get_releases(owner, repo, skip=[], zip_only=False):
     """
     Gets a list of releases from a GitHub Repository.
     """
@@ -23,8 +23,8 @@ def get_releases(owner, repo, skip=[]):
         if release["tag_name"] in skip:
             continue
 
-        # If assets is empty, set the zip as the file
-        if not release["assets"]:
+        # If assets is empty or this resource requires the zip, set it as the file
+        if not release["assets"] or zip_only:
             download = DL_ZIPBALL.format(owner, repo, release["tag_name"])
         # If there is a released file, save the first one it
         else:
