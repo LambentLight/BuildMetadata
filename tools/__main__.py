@@ -1,6 +1,7 @@
 import sys
 
 from .builds import generate_builds
+from .resources import update_versions
 
 
 def main():
@@ -19,6 +20,8 @@ def main():
     # IF the mode is set to all or builds, generate the list of builds
     if mode == "all" or mode == "builds":
         generate_builds()
+    if mode == "all" or mode == "versions":
+        update_versions()
 
 
 if __name__ == "__main__":
