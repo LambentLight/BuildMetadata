@@ -1,0 +1,27 @@
+name: Version Updater
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  Updating:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Fetch the master branch
+        uses: actions/checkout@v1
+        with:
+          ref: master
+      - name: Change some git settings
+        run: git config --global core.autocrlf input
+      - name: Install the Python Requirements
+        run: python3.6 -m pip install -r requirements.txt
+      - name: Update the list of Resources
+        run: python3.6 -m tools versions
+      - name: Commit changed files
+        uses: stefanzweifel/git-auto-commit-action@v2.1.0
+        with:
+          commit_message: Updated the Versions of the Resources
+          branch: master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
