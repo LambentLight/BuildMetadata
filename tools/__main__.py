@@ -1,7 +1,7 @@
 import sys
 
 from .builds import generate_builds
-from .resources import update_versions
+from .resources import update_list, update_versions
 
 
 def main():
@@ -17,11 +17,13 @@ def main():
         # Set the mode to the one specified by the user
         mode = sys.argv[1]
 
-    # IF the mode is set to all or builds, generate the list of builds
+    # Now, run the correct function for the selected mode
     if mode == "all" or mode == "builds":
         generate_builds()
     if mode == "all" or mode == "versions":
         update_versions()
+    if mode == "all" or mode == "list":
+        update_list()
 
 
 if __name__ == "__main__":
