@@ -4,7 +4,7 @@ DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 
 
-def get_releases(owner, repo, excluded=[]):
+def get_releases(owner, repo, skip=[]):
     """
     Gets a list of releases from a GitHub Repository.
     """
@@ -20,7 +20,7 @@ def get_releases(owner, repo, excluded=[]):
     # If is 200, iterate over the releases
     for release in get.json():
         # If this tag is on the excluded list, skip this iteration
-        if release["tag_name"] in excluded:
+        if release["tag_name"] in skip:
             continue
 
         # If assets is empty, set the zip as the file

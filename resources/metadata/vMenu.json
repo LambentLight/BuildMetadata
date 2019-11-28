@@ -5,13 +5,13 @@
     },
     "update": {
         "type": 1,
-        "parameters": [
-            "TomGrobbe",
-            "vMenu"
-        ],
-        "except": [
-            "v1.0.9"
-        ]
+        "parameters": {
+            "owner": "TomGrobbe",
+            "repo": "vMenu",
+            "skip": [
+                "v1.0.9"
+            ]
+        }
     },
     "install": {
         "destination": "vMenu"
