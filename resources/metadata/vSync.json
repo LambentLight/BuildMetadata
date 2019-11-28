@@ -1,0 +1,55 @@
+{
+    "info": {
+        "name": "vSync",
+        "author": "TomGrobbe"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "TomGrobbe",
+            "repo": "vSync",
+            "zip_only": true,
+            "path": "vSync-{0}\\vSync"
+        }
+    },
+    "install": {
+        "destination": "vSync"
+    },
+    "versions": [
+        {
+            "version": "1.4.0",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.4.0.zip",
+            "path": "vSync-1.4.0\\vSync"
+        },
+        {
+            "version": "1.3.0",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.3.0.zip",
+            "path": "vSync-1.3.0\\vSync"
+        },
+        {
+            "version": "1.2.1",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.2.1.zip",
+            "path": "vSync-1.2.1\\vSync"
+        },
+        {
+            "version": "1.2.0",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.2.0.zip",
+            "path": "vSync-1.2.0\\vSync"
+        },
+        {
+            "version": "1.0.1a",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.1a.zip",
+            "path": "vSync-1.0.1a\\vSync"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.1.zip",
+            "path": "vSync-1.0.1\\vSync"
+        },
+        {
+            "version": "1.0",
+            "download": "https://github.com/TomGrobbe/vSync/archive/v1.0.zip",
+            "path": "vSync-1.0\\vSync"
+        }
+    ]
+}
