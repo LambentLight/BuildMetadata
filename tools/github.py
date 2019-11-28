@@ -4,7 +4,7 @@ DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 
 
-def get_releases(owner, repo, skip=[], zip_only=False):
+def get_releases(owner, repo, skip=[], zip_only=False, path=""):
     """
     Gets a list of releases from a GitHub Repository.
     """
@@ -30,11 +30,17 @@ def get_releases(owner, repo, skip=[], zip_only=False):
         else:
             download = release["assets"][0]["browser_download_url"]
 
-        # Then, get the version of the release with the v stripped
-        version = release["tag_name"].strip("v")
+        # Create the object with the version information
+        data = {
+            "version": release["tag_name"].strip("v"),
+            "download": download
+        }
+        # If there is a path to format, use it
+        if path:
+            data["path"] = path.format(data["version"])
 
         # And add the release onto the list
-        releases.append({"version": version, "download": download})
+        releases.append(data)
 
     # Finally, return the new list of releases
     return releases
