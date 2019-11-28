@@ -1,4 +1,4 @@
-name: Automatic Build Updater
+name: Build Updater
 
 on:
   schedule:
@@ -13,7 +13,7 @@ jobs:
         with:
           ref: master
       - name: Change some git settings
-        run: git config --global core.autocrlf true
+        run: git config --global core.autocrlf input
       - name: Install the Python Requirements
         run: python3.6 -m pip install -r requirements.txt
       - name: Generate the list of Builds
