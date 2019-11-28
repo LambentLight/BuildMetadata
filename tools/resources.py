@@ -42,7 +42,7 @@ def update_versions():
             # If the file uses GitHub Releases for the updates
             if data["update"]["type"] == 1:
                 # Request the list of releases to GitHub and save them
-                data["versions"] = get_releases(*data["update"]["parameters"])
+                data["versions"] = get_releases(*data["update"]["parameters"], excluded=data["update"].get("except", []))
 
             # Seek back to the start of the file
             opened.seek(0)
