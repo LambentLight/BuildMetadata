@@ -1,5 +1,6 @@
 import requests
 
+DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 
 
@@ -20,7 +21,7 @@ def get_releases(owner, repo):
     for release in get.json():
         # If assets is empty, set the zip as the file
         if not release["assets"]:
-            download = release["zipball_url"]
+            download = DL_ZIPBALL.format(owner, repo, release["tag_name"])
         # If there is a released file, save the first one it
         else:
             download = release["assets"][0]["browser_download_url"]
