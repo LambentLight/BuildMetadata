@@ -1,0 +1,34 @@
+{
+    "info": {
+        "name": "async",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "async",
+            "patches": {
+                "*": {
+                    "zip_only": true,
+                    "path": "async-{0}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "async"
+    },
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/async/archive/1.0.1.zip",
+            "path": "async-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/async/archive/1.0.0.zip",
+            "path": "async-1.0.0"
+        }
+    ]
+}

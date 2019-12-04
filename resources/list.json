@@ -1,5 +1,9 @@
 [
     {
+        "name": "async",
+        "author": "ESX"
+    },
+    {
         "name": "vMenu",
         "author": "TomGrobbe"
     },
