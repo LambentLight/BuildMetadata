@@ -19,6 +19,9 @@
     "install": {
         "destination": "police"
     },
+    "requires": [
+        "ghmattimysql"
+    ],
     "versions": [
         {
             "version": "1.4.9",

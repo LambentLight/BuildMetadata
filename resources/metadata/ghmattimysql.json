@@ -1,0 +1,73 @@
+{
+    "info": {
+        "name": "ghmattimysql",
+        "author": "GHMatti"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "GHMatti",
+            "repo": "ghmattimysql",
+            "patches": {
+                "*": {
+                    "path": "ghmattimysql"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "ghmattimysql"
+    },
+    "versions": [
+        {
+            "version": "1.2.1",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.1/ghmattimysql.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.2.0",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.2.0/ghmattimysql.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.1.0/ghmattimysql.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0/ghmattimysql-1.0.0.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-rc.4",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-rc.4/ghmattimysql-1.0.0-rc.4.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-rc.3",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-rc.3/ghmattimysql-1.0.0-rc.3.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-rc.2",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-rc.2/ghmattimysql-1.0.0-rc.2.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-rc.1",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-rc.1/ghmattimysql-1.0.0-rc.1.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-rc.0",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-rc.0/ghmattimysql-1.0.0-rc.0.zip",
+            "path": "ghmattimysql"
+        },
+        {
+            "version": "1.0.0-beta.0",
+            "download": "https://github.com/GHMatti/ghmattimysql/releases/download/1.0.0-beta.0/ghmattimysql-1.0.0-beta.0.zip",
+            "path": "ghmattimysql"
+        }
+    ]
+}
