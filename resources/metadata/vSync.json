@@ -8,8 +8,12 @@
         "parameters": {
             "owner": "TomGrobbe",
             "repo": "vSync",
-            "zip_only": true,
-            "path": "vSync-{0}\\vSync"
+            "patches": {
+                "*": {
+                    "zip_only": true,
+                    "path": "vSync-{0}\\vSync"
+                }
+            }
         }
     },
     "install": {

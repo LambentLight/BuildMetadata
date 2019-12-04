@@ -1,10 +1,12 @@
 import requests
+from packaging.specifiers import SpecifierSet, InvalidSpecifier
+from packaging.version import Version, InvalidVersion
 
 DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 
 
-def get_releases(owner, repo, skip=[], zip_only=False, path=""):
+def get_releases(owner, repo, patches={}, skip=[]):
     """
     Gets a list of releases from a GitHub Repository.
     """
@@ -23,8 +25,33 @@ def get_releases(owner, repo, skip=[], zip_only=False, path=""):
         if release["tag_name"] in skip:
             continue
 
+        # Create a temporary set of patches
+        patch = {}
+        # Try to parse the version on the tag without the trailing V
+        try:
+            version = Version(release["tag_name"].strip("v"))
+        except InvalidVersion:
+            version = None
+
+        # Select the correct set of manual patches
+        for key, item in patches.items():
+            # Try to parse the specifier
+            try:
+                specifier = SpecifierSet(key)
+            except InvalidSpecifier:
+                specifier = None
+
+            # If the specifier and version are valids and the later is compatible with the specifier
+            if specifier and version and version in specifier:
+                patch = item
+                break
+
+        # If there is no patches set, let's use the generic set of patches if is available
+        if not patch and "*" in patches:
+            patch = patches["*"]
+
         # If assets is empty or this resource requires the zip, set it as the file
-        if not release["assets"] or zip_only:
+        if not release["assets"] or ("zip_only" in patch and patch["zip_only"]):
             download = DL_ZIPBALL.format(owner, repo, release["tag_name"])
         # If there is a released file, save the first one it
         else:
@@ -36,8 +63,8 @@ def get_releases(owner, repo, skip=[], zip_only=False, path=""):
             "download": download
         }
         # If there is a path to format, use it
-        if path:
-            data["path"] = path.format(data["version"])
+        if "path" in patch:
+            data["path"] = patch["path"].format(data["version"])
 
         # And add the release onto the list
         releases.append(data)
