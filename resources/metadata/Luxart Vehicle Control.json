@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "Luxart Vehicle Control",
+        "author": "Lt.Caine"
+    },
+    "update": {
+        "type": 0
+    },
+    "install": {
+        "destination": "lux_vehcontrol"
+    },
+    "versions": [
+        {
+            "version": "1.01",
+            "download": "https://forum.fivem.net/uploads/default/original/2X/1/177659060c024f93bfa20450856734f5ea31ab52.rar",
+            "path": "lux_vehcontrol"
+        }
+    ]
+}
