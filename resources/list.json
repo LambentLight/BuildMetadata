@@ -30,5 +30,9 @@
     {
         "name": "vSync",
         "author": "TomGrobbe"
+    },
+    {
+        "name": "Wraith Radar System",
+        "author": "WolfKnight"
     }
 ]

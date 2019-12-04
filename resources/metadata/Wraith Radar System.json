@@ -1,0 +1,29 @@
+{
+    "info": {
+        "name": "Wraith Radar System",
+        "author": "WolfKnight"
+    },
+    "update": {
+        "type": 0
+    },
+    "install": {
+        "destination": "wk_wrs"
+    },
+    "versions": [
+        {
+            "version": "1.0.2",
+            "download": "https://forum.fivem.net/uploads/default/original/3X/f/d/fd09a66fe910d8732eeaae371992908975b51bb6.zip",
+            "path": "wk_wrs"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://forum.fivem.net/uploads/default/original/3X/b/1/b1f076bcdb3de2e99afa619f5ba55c4dac0165a6.zip",
+            "path": "wk_wrs"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://forum.fivem.net/uploads/default/original/3X/d/a/da83ab94d97374807cce122d0811f50bc5f7a56c.zip",
+            "path": "wk_wrs"
+        }
+    ]
+}
