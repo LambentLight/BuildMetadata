@@ -1,0 +1,109 @@
+{
+    "info": {
+        "name": "mysql-async",
+        "author": "brouznouf"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "brouznouf",
+            "repo": "fivem-mysql-async",
+            "patches": {
+                "*": {
+                    "zip_only": true,
+                    "path": "fivem-mysql-async-{0}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "mysql-async"
+    },
+    "versions": [
+        {
+            "version": "3.2.0",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.2.0.zip",
+            "path": "fivem-mysql-async-3.2.0"
+        },
+        {
+            "version": "3.1.1",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.1.zip",
+            "path": "fivem-mysql-async-3.1.1"
+        },
+        {
+            "version": "3.1.0",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.1.0.zip",
+            "path": "fivem-mysql-async-3.1.0"
+        },
+        {
+            "version": "3.0.11",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.11.zip",
+            "path": "fivem-mysql-async-3.0.11"
+        },
+        {
+            "version": "3.0.9",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.9.zip",
+            "path": "fivem-mysql-async-3.0.9"
+        },
+        {
+            "version": "3.0.8",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.8.zip",
+            "path": "fivem-mysql-async-3.0.8"
+        },
+        {
+            "version": "3.0.7",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.7.zip",
+            "path": "fivem-mysql-async-3.0.7"
+        },
+        {
+            "version": "3.0.6",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.6.zip",
+            "path": "fivem-mysql-async-3.0.6"
+        },
+        {
+            "version": "3.0.5",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.5.zip",
+            "path": "fivem-mysql-async-3.0.5"
+        },
+        {
+            "version": "3.0.3",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.3.zip",
+            "path": "fivem-mysql-async-3.0.3"
+        },
+        {
+            "version": "3.0.4",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.4.zip",
+            "path": "fivem-mysql-async-3.0.4"
+        },
+        {
+            "version": "3.0.2",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.2.zip",
+            "path": "fivem-mysql-async-3.0.2"
+        },
+        {
+            "version": "3.0.1",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.1.zip",
+            "path": "fivem-mysql-async-3.0.1"
+        },
+        {
+            "version": "3.0.0",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/3.0.0.zip",
+            "path": "fivem-mysql-async-3.0.0"
+        },
+        {
+            "version": "2.1.1",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/v2.1.1.zip",
+            "path": "fivem-mysql-async-2.1.1"
+        },
+        {
+            "version": "2.1.0",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/v2.1.0.zip",
+            "path": "fivem-mysql-async-2.1.0"
+        },
+        {
+            "version": "2.0.4",
+            "download": "https://github.com/brouznouf/fivem-mysql-async/archive/v2.0.4.zip",
+            "path": "fivem-mysql-async-2.0.4"
+        }
+    ]
+}

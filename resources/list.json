@@ -16,6 +16,10 @@
         "author": "GHMatti"
     },
     {
+        "name": "mysql-async",
+        "author": "brouznouf"
+    },
+    {
         "name": "vMenu",
         "author": "TomGrobbe"
     },
