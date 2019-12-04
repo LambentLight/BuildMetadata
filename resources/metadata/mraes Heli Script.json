@@ -1,0 +1,19 @@
+{
+    "info": {
+        "name": "mraes Heli Script",
+        "author": "mraes"
+    },
+    "update": {
+        "type": 0
+    },
+    "install": {
+        "destination": "heli"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "download": "https://forum.fivem.net/uploads/default/original/2X/c/c32a4e8b175dae17b1b475b702d42d1bfd1869f1.zip",
+            "path": "heli"
+        }
+    ]
+}
