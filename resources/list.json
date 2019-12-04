@@ -36,6 +36,15 @@
         "author": "brouznouf"
     },
     {
+        "name": "NativeUILua Reloaded",
+        "author": "iTexZoz"
+    },
+    {
+        "name": "NativeUILua",
+        "author": "FrazzIe",
+        "superseded": "NativeUILua Reloaded"
+    },
+    {
         "name": "vMenu",
         "author": "TomGrobbe"
     },

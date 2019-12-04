@@ -1,0 +1,90 @@
+{
+    "info": {
+        "name": "NativeUILua",
+        "author": "FrazzIe",
+        "superseded": "NativeUILua Reloaded"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "FrazzIe",
+            "repo": "NativeUILua",
+            "patches": {
+                "*": {
+                    "zip_only": true,
+                    "path": "NativeUILua-{0}\\NativeUI"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "NativeUI"
+    },
+    "versions": [
+        {
+            "version": "2.1.0",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/2.1.0.zip",
+            "path": "NativeUILua-2.1.0\\NativeUI"
+        },
+        {
+            "version": "2.0.0",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/2.0.0.zip",
+            "path": "NativeUILua-2.0.0\\NativeUI"
+        },
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.1.0.zip",
+            "path": "NativeUILua-1.1.0\\NativeUI"
+        },
+        {
+            "version": "1.0.9",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.9.zip",
+            "path": "NativeUILua-1.0.9\\NativeUI"
+        },
+        {
+            "version": "1.0.8",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.8.zip",
+            "path": "NativeUILua-1.0.8\\NativeUI"
+        },
+        {
+            "version": "1.0.7",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.7.zip",
+            "path": "NativeUILua-1.0.7\\NativeUI"
+        },
+        {
+            "version": "1.0.6",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.6.zip",
+            "path": "NativeUILua-1.0.6\\NativeUI"
+        },
+        {
+            "version": "1.0.5",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.5.zip",
+            "path": "NativeUILua-1.0.5\\NativeUI"
+        },
+        {
+            "version": "1.0.4",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.4.zip",
+            "path": "NativeUILua-1.0.4\\NativeUI"
+        },
+        {
+            "version": "1.0.3",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.3.zip",
+            "path": "NativeUILua-1.0.3\\NativeUI"
+        },
+        {
+            "version": "1.0.2",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.2.zip",
+            "path": "NativeUILua-1.0.2\\NativeUI"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.1.zip",
+            "path": "NativeUILua-1.0.1\\NativeUI"
+        },
+        {
+            "version": "1.0",
+            "download": "https://github.com/FrazzIe/NativeUILua/archive/1.0.zip",
+            "path": "NativeUILua-1.0\\NativeUI"
+        }
+    ]
+}
