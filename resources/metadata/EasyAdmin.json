@@ -21,6 +21,11 @@
     },
     "versions": [
         {
+            "version": "5.131",
+            "download": "https://github.com/Bluethefurry/EasyAdmin/archive/5.131.zip",
+            "path": "EasyAdmin-5.131"
+        },
+        {
             "version": "5.13",
             "download": "https://github.com/Bluethefurry/EasyAdmin/archive/5.13.zip",
             "path": "EasyAdmin-5.13"
@@ -164,11 +169,6 @@
             "version": "4.15a",
             "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.15a.zip",
             "path": "EasyAdmin-4.15a"
-        },
-        {
-            "version": "4.12",
-            "download": "https://github.com/Bluethefurry/EasyAdmin/archive/4.12.zip",
-            "path": "EasyAdmin-4.12"
         }
     ]
 }
