@@ -4,12 +4,53 @@ from packaging.version import Version, InvalidVersion
 
 DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
+COMMIT_RELEASES = "https://api.github.com/repos/{0}/{1}/commits"
 
 
-def get_releases(owner, repo, patches={}, skip=[]):
+def get_commits(**kwargs):
+    """
+    Gets the specified number of commits from a GitHub repository.
+    """
+    # Get the parts that we need
+    owner = kwargs.get("owner")
+    repo = kwargs.get("repo")
+    count = kwargs.get("commits")
+    patch = kwargs.get("patches")["*"]
+
+    # Create a place for storing the releases
+    releases = []
+    # Make the GET request
+    get = requests.get(COMMIT_RELEASES.format(owner, repo))
+
+    # If the request is not 200, return the empty list
+    if get.status_code != 200:
+        return releases
+
+    # If is 200, iterate over the commits
+    for commit in get.json():
+        # Create the object with the information
+        data = {
+            "version": "{0} ({1})".format(commit["sha"], commit["commit"]["message"]),
+            "download": DL_ZIPBALL.format(owner, repo, commit["sha"]),
+            "path": patch["path"].format(commit["sha"])
+        }
+        # And add the new version into the list
+        releases.append(data)
+
+    # Finally, return the list with the releases
+    return releases
+
+
+def get_releases(**kwargs):
     """
     Gets a list of releases from a GitHub Repository.
     """
+    # Get the parts that we need
+    owner = kwargs.get("owner")
+    repo = kwargs.get("repo")
+    patches = kwargs.get("patches", {})
+    skip = kwargs.get("skip", [])
+
     # Create a place for storing the releases
     releases = []
     # Make the GET request

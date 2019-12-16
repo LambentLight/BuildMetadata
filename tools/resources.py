@@ -1,7 +1,7 @@
 import glob
 import json
 
-from .github import get_releases
+from .github import get_commits, get_releases
 
 
 def update_list():
@@ -39,10 +39,23 @@ def update_versions():
             # Get the information of the resource
             data = json.load(opened)
 
+            # Create some shortcuts for the objects
+            params = data["update"].get("parameters", {})
+
             # If the file uses GitHub Releases for the updates
             if data["update"]["type"] == 1:
-                # Request the list of releases to GitHub and save them
-                data["versions"] = get_releases(**data["update"]["parameters"])
+                # Create a new list of versions
+                data["versions"] = []
+
+                # If we need to fetch a specific number of commits
+                if "commits" in params:
+                    # Add those versions from the commits
+                    data["versions"].extend(get_commits(**params))
+
+                # If we don't have the update from releases disabled
+                if not ("skip_releases" in params and params["skip_releases"]):
+                    # Request the list of releases to GitHub and save them
+                    data["versions"] = get_releases(**params)
 
             # Remove everything and go back to the start of the file
             opened.seek(0)
