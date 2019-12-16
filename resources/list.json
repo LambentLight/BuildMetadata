@@ -32,6 +32,18 @@
         "author": "ESX"
     },
     {
+        "name": "esx_menu_default",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_menu_dialog",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_menu_list",
+        "author": "ESX"
+    },
+    {
         "name": "FRFuel",
         "author": "thers"
     },

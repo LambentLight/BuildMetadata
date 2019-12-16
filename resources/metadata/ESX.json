@@ -23,7 +23,10 @@
         "mysql-async",
         "async",
         "essentialmode",
-        "esplugin_mysql"
+        "esplugin_mysql",
+        "esx_menu_default",
+        "esx_menu_dialog",
+        "esx_menu_list"
     ],
     "versions": [
         {

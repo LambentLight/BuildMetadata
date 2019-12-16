@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_menu_list",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_menu_list",
+            "patches": {
+                "*": {
+                    "path": "esx_menu_list-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_menu_list"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_menu_list/archive/1.0.1.zip",
+            "path": "esx_menu_list-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_menu_list/archive/1.0.0.zip",
+            "path": "esx_menu_list-1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_menu_dialog",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_menu_dialog",
+            "patches": {
+                "*": {
+                    "path": "esx_menu_dialog-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_menu_dialog"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_menu_dialog/archive/1.1.0.zip",
+            "path": "esx_menu_dialog-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_menu_dialog/archive/1.0.0.zip",
+            "path": "esx_menu_dialog-1.0.0"
+        }
+    ]
+}
