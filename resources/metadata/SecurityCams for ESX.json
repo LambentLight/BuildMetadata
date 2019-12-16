@@ -20,6 +20,10 @@
     "install": {
         "destination": "esx_securitycams"
     },
+    "requires": [
+        "ESX",
+        "ESX Police Job"
+    ],
     "versions": [
         {
             "version": "5ec42c77d844f6f5f937c6e8c9b9e65de3c14103",
