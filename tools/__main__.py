@@ -1,7 +1,7 @@
 import sys
 
 from .builds import generate_builds
-from .resources import update_list, update_version, update_versions
+from .resources import update_list, update_version, create_new, update_versions
 
 
 def main():
@@ -25,6 +25,8 @@ def main():
     if mode == "all" or mode == "versionmanual":
         name = input("Name of the file that you want to update > ")
         update_version(f"resources/metadata/{name}")
+    if mode == "all" or mode == "new":
+        create_new()
     if mode == "all" or mode == "list":
         update_list()
 

@@ -3,6 +3,7 @@ import json
 from os.path import isfile
 
 from .github import get_commits, get_releases
+from .parsing import ensure_input, parse_bool, parse_int
 
 
 def update_list():
@@ -78,6 +79,80 @@ def update_versions():
     for file in get_files():
         # And update every single one of them
         update_version(file)
+
+
+def create_new():
+    """
+    Creates a new resource file step by step.
+    """
+    # Ask the user for basic input
+    name = ensure_input("What is the name of the resource? [] > ")
+    author = ensure_input("Who is the author of the resource? [] > ")
+    destination = ensure_input("What is the destination folder of the resource? [] > ")
+    update = parse_bool(ensure_input("Should this resource be updated automatically via GitHub? [y/n] > ", False))
+
+    # Create the new object with the data
+    data = {
+        "info": {
+            "name": name,
+            "author": author
+        },
+        "update": {
+            "type": 0,
+        },
+        "install": {
+            "destination": destination
+        },
+        "versions": []
+    }
+
+    # If the user wants to use GitHub for updating
+    if update:
+        # Ask the information that we need
+        owner = ensure_input("Who is the owner of the GitHub repository? [] > ")
+        repo = ensure_input("What is the name of the GitHub repository? [] > ")
+        releases = parse_bool(ensure_input("Should GitHub Releases be included? [y/n] > ", True))
+        commits = parse_int(ensure_input("How many commits should be included? (zero to disable) [0] > "), 0)
+        path = ensure_input("What is the path of the resource folder inside of the compressed file? [] > ")
+
+        # And add those values
+        data["update"] = {
+            "type": 1,
+            "parameters": {
+                "owner": owner,
+                "repo": repo,
+                "patches": {
+                    "*": {
+                        "path": path
+                    }
+                }
+            }
+        }
+
+        # If the user doesn't want releases
+        if not releases:
+            data["update"]["parameters"]["skip_releases"] = True
+        # If the user wants commits to be included
+        if commits:
+            data["update"]["parameters"]["commits"] = commits
+
+    # Create the destination path of the file
+    file_path = f"resources\\metadata\\{name}.json"
+    # Open the file for writing
+    with open(file_path, "w") as opened:
+        # Dump the new resource information
+        json.dump(data, opened, indent=4)
+        # And add a new line
+        opened.write("\n")
+
+    # If there is a way to update the versions
+    if data["update"]["type"]:
+        # Ask the user if he wants to refresh the versions right now
+        after = parse_bool(ensure_input("Do you want to refresh the versions after finishing? [y/n] > ", True))
+
+        # If he does, just call the respective function
+        if after:
+            update_version(file_path)
 
 
 def get_files():
