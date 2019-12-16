@@ -21,6 +21,11 @@
     },
     "versions": [
         {
+            "version": "1.9",
+            "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.9.zip",
+            "path": "ELS-FiveM-1.9"
+        },
+        {
             "version": "1.75",
             "download": "https://github.com/MrDaGree/ELS-FiveM/archive/1.75.zip",
             "path": "ELS-FiveM-1.75"
