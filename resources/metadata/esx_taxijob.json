@@ -24,5 +24,16 @@
         "esx_society",
         "esx_billing"
     ],
-    "versions": []
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_taxijob/archive/1.0.1.zip",
+            "path": "esx_taxijob-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_taxijob/archive/1.0.0.zip",
+            "path": "esx_taxijob-1.0.0"
+        }
+    ]
 }
