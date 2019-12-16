@@ -10,7 +10,7 @@
             "repo": "esx_securitycam",
             "patches": {
                 "*": {
-                    "path": "esx_securitycam{}"
+                    "path": "esx_securitycam-{0}"
                 }
             },
             "skip_releases": true,
@@ -28,152 +28,152 @@
         {
             "version": "5ec42c77d844f6f5f937c6e8c9b9e65de3c14103",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/5ec42c77d844f6f5f937c6e8c9b9e65de3c14103.zip",
-            "path": "esx_securitycam5ec42c77d844f6f5f937c6e8c9b9e65de3c14103"
+            "path": "esx_securitycam-5ec42c77d844f6f5f937c6e8c9b9e65de3c14103"
         },
         {
             "version": "b3f9d787737867b29999343ebccb67532489193b",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/b3f9d787737867b29999343ebccb67532489193b.zip",
-            "path": "esx_securitycamb3f9d787737867b29999343ebccb67532489193b"
+            "path": "esx_securitycam-b3f9d787737867b29999343ebccb67532489193b"
         },
         {
             "version": "da3bc0420e5a63255e40550d649c0ecd0b48e5d2",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/da3bc0420e5a63255e40550d649c0ecd0b48e5d2.zip",
-            "path": "esx_securitycamda3bc0420e5a63255e40550d649c0ecd0b48e5d2"
+            "path": "esx_securitycam-da3bc0420e5a63255e40550d649c0ecd0b48e5d2"
         },
         {
             "version": "71abbd52413aac3a4a61c4d675cce30f161b6ea9",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/71abbd52413aac3a4a61c4d675cce30f161b6ea9.zip",
-            "path": "esx_securitycam71abbd52413aac3a4a61c4d675cce30f161b6ea9"
+            "path": "esx_securitycam-71abbd52413aac3a4a61c4d675cce30f161b6ea9"
         },
         {
             "version": "a83a11c7f72b9aaec863044443777d8efeb8807b",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/a83a11c7f72b9aaec863044443777d8efeb8807b.zip",
-            "path": "esx_securitycama83a11c7f72b9aaec863044443777d8efeb8807b"
+            "path": "esx_securitycam-a83a11c7f72b9aaec863044443777d8efeb8807b"
         },
         {
             "version": "ae86e2d44b31773ef7e27e83f7932132bab73cd2",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/ae86e2d44b31773ef7e27e83f7932132bab73cd2.zip",
-            "path": "esx_securitycamae86e2d44b31773ef7e27e83f7932132bab73cd2"
+            "path": "esx_securitycam-ae86e2d44b31773ef7e27e83f7932132bab73cd2"
         },
         {
             "version": "f89ab104e4a41044739be0aaefb565a4f2377971",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/f89ab104e4a41044739be0aaefb565a4f2377971.zip",
-            "path": "esx_securitycamf89ab104e4a41044739be0aaefb565a4f2377971"
+            "path": "esx_securitycam-f89ab104e4a41044739be0aaefb565a4f2377971"
         },
         {
             "version": "86cf515bb3690996138c94066c728c726aa4781d",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/86cf515bb3690996138c94066c728c726aa4781d.zip",
-            "path": "esx_securitycam86cf515bb3690996138c94066c728c726aa4781d"
+            "path": "esx_securitycam-86cf515bb3690996138c94066c728c726aa4781d"
         },
         {
             "version": "5a021414f62ecf9f2afeca191384592ce6acbe96",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/5a021414f62ecf9f2afeca191384592ce6acbe96.zip",
-            "path": "esx_securitycam5a021414f62ecf9f2afeca191384592ce6acbe96"
+            "path": "esx_securitycam-5a021414f62ecf9f2afeca191384592ce6acbe96"
         },
         {
             "version": "962af3af32e24810e2ca708426dd1801e32552d9",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/962af3af32e24810e2ca708426dd1801e32552d9.zip",
-            "path": "esx_securitycam962af3af32e24810e2ca708426dd1801e32552d9"
+            "path": "esx_securitycam-962af3af32e24810e2ca708426dd1801e32552d9"
         },
         {
             "version": "ad3f723ea3758f22d30f3b9e6a9acca24af7c837",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/ad3f723ea3758f22d30f3b9e6a9acca24af7c837.zip",
-            "path": "esx_securitycamad3f723ea3758f22d30f3b9e6a9acca24af7c837"
+            "path": "esx_securitycam-ad3f723ea3758f22d30f3b9e6a9acca24af7c837"
         },
         {
             "version": "8cfac153c1fe4a0008ea193160711387f5f3f641",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/8cfac153c1fe4a0008ea193160711387f5f3f641.zip",
-            "path": "esx_securitycam8cfac153c1fe4a0008ea193160711387f5f3f641"
+            "path": "esx_securitycam-8cfac153c1fe4a0008ea193160711387f5f3f641"
         },
         {
             "version": "f693ae27e87473fcc396069b34e82986f41416a6",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/f693ae27e87473fcc396069b34e82986f41416a6.zip",
-            "path": "esx_securitycamf693ae27e87473fcc396069b34e82986f41416a6"
+            "path": "esx_securitycam-f693ae27e87473fcc396069b34e82986f41416a6"
         },
         {
             "version": "52c329c0bdc09afcd933359fc4d6d508b9a22d1c",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/52c329c0bdc09afcd933359fc4d6d508b9a22d1c.zip",
-            "path": "esx_securitycam52c329c0bdc09afcd933359fc4d6d508b9a22d1c"
+            "path": "esx_securitycam-52c329c0bdc09afcd933359fc4d6d508b9a22d1c"
         },
         {
             "version": "06dbbaeee1e8c84371d56ef176d9e4f66e9a310d",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/06dbbaeee1e8c84371d56ef176d9e4f66e9a310d.zip",
-            "path": "esx_securitycam06dbbaeee1e8c84371d56ef176d9e4f66e9a310d"
+            "path": "esx_securitycam-06dbbaeee1e8c84371d56ef176d9e4f66e9a310d"
         },
         {
             "version": "51b4ed7d10d6ff6f105c3efa409b38665195ebc2",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/51b4ed7d10d6ff6f105c3efa409b38665195ebc2.zip",
-            "path": "esx_securitycam51b4ed7d10d6ff6f105c3efa409b38665195ebc2"
+            "path": "esx_securitycam-51b4ed7d10d6ff6f105c3efa409b38665195ebc2"
         },
         {
             "version": "70097f4032faec180c9baeed17a06b9e3666b067",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/70097f4032faec180c9baeed17a06b9e3666b067.zip",
-            "path": "esx_securitycam70097f4032faec180c9baeed17a06b9e3666b067"
+            "path": "esx_securitycam-70097f4032faec180c9baeed17a06b9e3666b067"
         },
         {
             "version": "c67a930ac9017f5661f0ad2a819eb61e66b7f6bf",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/c67a930ac9017f5661f0ad2a819eb61e66b7f6bf.zip",
-            "path": "esx_securitycamc67a930ac9017f5661f0ad2a819eb61e66b7f6bf"
+            "path": "esx_securitycam-c67a930ac9017f5661f0ad2a819eb61e66b7f6bf"
         },
         {
             "version": "1ff752ee04433d64347554c10f0bed071eff7c35",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/1ff752ee04433d64347554c10f0bed071eff7c35.zip",
-            "path": "esx_securitycam1ff752ee04433d64347554c10f0bed071eff7c35"
+            "path": "esx_securitycam-1ff752ee04433d64347554c10f0bed071eff7c35"
         },
         {
             "version": "c3f28f646cf1bf2759dd6ef664fb17a5f9f87c5a",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/c3f28f646cf1bf2759dd6ef664fb17a5f9f87c5a.zip",
-            "path": "esx_securitycamc3f28f646cf1bf2759dd6ef664fb17a5f9f87c5a"
+            "path": "esx_securitycam-c3f28f646cf1bf2759dd6ef664fb17a5f9f87c5a"
         },
         {
             "version": "ecd2942cc01624441cd68dc11451f74b0466805d",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/ecd2942cc01624441cd68dc11451f74b0466805d.zip",
-            "path": "esx_securitycamecd2942cc01624441cd68dc11451f74b0466805d"
+            "path": "esx_securitycam-ecd2942cc01624441cd68dc11451f74b0466805d"
         },
         {
             "version": "3721ea95a41749f344c6266bbc29eca1c24f65b9",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/3721ea95a41749f344c6266bbc29eca1c24f65b9.zip",
-            "path": "esx_securitycam3721ea95a41749f344c6266bbc29eca1c24f65b9"
+            "path": "esx_securitycam-3721ea95a41749f344c6266bbc29eca1c24f65b9"
         },
         {
             "version": "8b18f98a4794a79da252eac65a800b9857163ce8",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/8b18f98a4794a79da252eac65a800b9857163ce8.zip",
-            "path": "esx_securitycam8b18f98a4794a79da252eac65a800b9857163ce8"
+            "path": "esx_securitycam-8b18f98a4794a79da252eac65a800b9857163ce8"
         },
         {
             "version": "39b5b531c09f03876ed98fb9f74e66da30b22acf",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/39b5b531c09f03876ed98fb9f74e66da30b22acf.zip",
-            "path": "esx_securitycam39b5b531c09f03876ed98fb9f74e66da30b22acf"
+            "path": "esx_securitycam-39b5b531c09f03876ed98fb9f74e66da30b22acf"
         },
         {
             "version": "5055d05494a5aed67d4d0c6dbfeb1f2ebd387ffd",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/5055d05494a5aed67d4d0c6dbfeb1f2ebd387ffd.zip",
-            "path": "esx_securitycam5055d05494a5aed67d4d0c6dbfeb1f2ebd387ffd"
+            "path": "esx_securitycam-5055d05494a5aed67d4d0c6dbfeb1f2ebd387ffd"
         },
         {
             "version": "1fc0e69004150d69d86140a53e060869b1cc50c8",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/1fc0e69004150d69d86140a53e060869b1cc50c8.zip",
-            "path": "esx_securitycam1fc0e69004150d69d86140a53e060869b1cc50c8"
+            "path": "esx_securitycam-1fc0e69004150d69d86140a53e060869b1cc50c8"
         },
         {
             "version": "ae84559e5a6f7406c62e32a21a95ec846338eec8",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/ae84559e5a6f7406c62e32a21a95ec846338eec8.zip",
-            "path": "esx_securitycamae84559e5a6f7406c62e32a21a95ec846338eec8"
+            "path": "esx_securitycam-ae84559e5a6f7406c62e32a21a95ec846338eec8"
         },
         {
             "version": "0f783b69becf4a7d09118b4e2d6e91611c75525f",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/0f783b69becf4a7d09118b4e2d6e91611c75525f.zip",
-            "path": "esx_securitycam0f783b69becf4a7d09118b4e2d6e91611c75525f"
+            "path": "esx_securitycam-0f783b69becf4a7d09118b4e2d6e91611c75525f"
         },
         {
             "version": "fc94e3cbcd8e173c8859001ffde860b76f4f086e",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/fc94e3cbcd8e173c8859001ffde860b76f4f086e.zip",
-            "path": "esx_securitycamfc94e3cbcd8e173c8859001ffde860b76f4f086e"
+            "path": "esx_securitycam-fc94e3cbcd8e173c8859001ffde860b76f4f086e"
         },
         {
             "version": "19be0b7acd512c8cdd96f6672b7654d05bad4ca6",
             "download": "https://github.com/LifeGoal/esx_securitycam/archive/19be0b7acd512c8cdd96f6672b7654d05bad4ca6.zip",
-            "path": "esx_securitycam19be0b7acd512c8cdd96f6672b7654d05bad4ca6"
+            "path": "esx_securitycam-19be0b7acd512c8cdd96f6672b7654d05bad4ca6"
         }
     ]
 }
