@@ -89,6 +89,7 @@ def create_new():
     name = ensure_input("What is the name of the resource? [] > ")
     author = ensure_input("Who is the author of the resource? [] > ")
     destination = ensure_input("What is the destination folder of the resource? [] > ")
+    requires = ensure_input("What other resources does this one requires? (separate them with comas) [] > ")
     update = parse_bool(ensure_input("Should this resource be updated automatically via GitHub? [y/n] > ", False))
 
     # Create the new object with the data
@@ -103,8 +104,13 @@ def create_new():
         "install": {
             "destination": destination
         },
+        "requires": [],
         "versions": []
     }
+
+    # If there are requirements to be parsed
+    if requires:
+        data["requires"] = requires.split(",")
 
     # If the user wants to use GitHub for updating
     if update:
@@ -135,6 +141,10 @@ def create_new():
         # If the user wants commits to be included
         if commits:
             data["update"]["parameters"]["commits"] = commits
+
+    # If there are no requirements to add, remove the item
+    if not data["requires"]:
+        del data["requires"]
 
     # Create the destination path of the file
     file_path = f"resources\\metadata\\{name}.json"
