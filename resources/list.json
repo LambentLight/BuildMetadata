@@ -8,6 +8,10 @@
         "author": "Kyominii"
     },
     {
+        "name": "cron",
+        "author": "ESX"
+    },
+    {
         "name": "EasyAdmin",
         "author": "Blue"
     },
@@ -32,6 +36,14 @@
         "author": "ESX"
     },
     {
+        "name": "esx_addonaccount",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_mechanicjob",
+        "author": "ESX"
+    },
+    {
         "name": "esx_menu_default",
         "author": "ESX"
     },
@@ -45,6 +57,10 @@
     },
     {
         "name": "esx_policejob",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_society",
         "author": "ESX"
     },
     {

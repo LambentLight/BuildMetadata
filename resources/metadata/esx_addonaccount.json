@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_addonaccount",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_addonaccount",
+            "patches": {
+                "*": {
+                    "path": "esx_addonaccount-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_addonaccount"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_addonaccount/archive/1.0.0.zip",
+            "path": "esx_addonaccount-1.0.0"
+        }
+    ]
+}

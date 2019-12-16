@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "esx_mechanicjob",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_mechanicjob",
+            "patches": {
+                "*": {
+                    "path": "esx_mechanicjob-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_mechanicjob"
+    },
+    "requires": [
+        "ESX",
+        "esx_society",
+        "esx_billing"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_mechanicjob/archive/1.0.0.zip",
+            "path": "esx_mechanicjob-1.0.0"
+        }
+    ]
+}
