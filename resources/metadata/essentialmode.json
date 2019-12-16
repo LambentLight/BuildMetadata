@@ -1,0 +1,73 @@
+{
+    "info": {
+        "name": "essentialmode",
+        "author": "kanersps"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "kanersps",
+            "repo": "essentialmode",
+            "patches": {
+                "*": {
+                    "path": "essentialmode-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "essentialmode"
+    },
+    "versions": [
+        {
+            "version": "6.2.2",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.2.2.zip",
+            "path": "essentialmode-6.2.2"
+        },
+        {
+            "version": "6.2.1",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.2.1.zip",
+            "path": "essentialmode-6.2.1"
+        },
+        {
+            "version": "6.2.0",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.2.0.zip",
+            "path": "essentialmode-6.2.0"
+        },
+        {
+            "version": "6.1.0",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.1.0.zip",
+            "path": "essentialmode-6.1.0"
+        },
+        {
+            "version": "6.0.2",
+            "download": "https://github.com/kanersps/essentialmode/archive/v6.0.2.zip",
+            "path": "essentialmode-6.0.2"
+        },
+        {
+            "version": "6.0.1",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.0.1.zip",
+            "path": "essentialmode-6.0.1"
+        },
+        {
+            "version": "6.0.0",
+            "download": "https://github.com/kanersps/essentialmode/archive/6.0.0.zip",
+            "path": "essentialmode-6.0.0"
+        },
+        {
+            "version": "5.2.1-b",
+            "download": "https://github.com/kanersps/essentialmode/archive/5.2.1-b.zip",
+            "path": "essentialmode-5.2.1-b"
+        },
+        {
+            "version": "5.2.1",
+            "download": "https://github.com/kanersps/essentialmode/archive/5.2.1.zip",
+            "path": "essentialmode-5.2.1"
+        },
+        {
+            "version": "5.2.0",
+            "download": "https://github.com/kanersps/essentialmode/archive/5.2.0.zip",
+            "path": "essentialmode-5.2.0"
+        }
+    ]
+}
