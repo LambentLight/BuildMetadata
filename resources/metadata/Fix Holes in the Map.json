@@ -1,0 +1,38 @@
+{
+    "info": {
+        "name": "Fix Holes in the Map",
+        "author": "Bob74"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "Bob74",
+            "repo": "bob74_ipl",
+            "patches": {
+                "*": {
+                    "path": "bob74_ipl-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "bob74_ipl"
+    },
+    "versions": [
+        {
+            "version": "2.0.8",
+            "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.8/bob74_ipl-2.0.8.zip",
+            "path": "bob74_ipl-2.0.8"
+        },
+        {
+            "version": "2.0.7c",
+            "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.7c/bob74_ipl-2.0.7c.zip",
+            "path": "bob74_ipl-2.0.7c"
+        },
+        {
+            "version": "2.0.7b",
+            "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.7b/bob74_ipl-2.0.7b.zip",
+            "path": "bob74_ipl-2.0.7b"
+        }
+    ]
+}
