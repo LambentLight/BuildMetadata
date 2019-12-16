@@ -26,12 +26,12 @@
         {
             "version": "1.0.1",
             "download": "https://github.com/ESX-Org/esx_skin/archive/1.0.1.zip",
-            "path": "esx_skin-1.0.1"
+            "path": "esxskin-1.0.1"
         },
         {
             "version": "1.0.0",
             "download": "https://github.com/ESX-Org/esx_skin/archive/1.0.0.zip",
-            "path": "esx_skin-1.0.0"
+            "path": "esxskin-1.0.0"
         }
     ]
 }
