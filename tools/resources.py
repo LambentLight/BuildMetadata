@@ -164,6 +164,9 @@ def create_new():
         if after:
             update_version(file_path)
 
+    # Finally, update the list of resources to add the new one
+    update_list()
+
 
 def get_files():
     """
