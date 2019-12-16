@@ -1,0 +1,175 @@
+{
+    "info": {
+        "name": "LiveMap",
+        "author": "TGRHavoc"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "TGRHavoc",
+            "repo": "live_map",
+            "patches": {
+                "*": {
+                    "path": "live_map-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "live_map"
+    },
+    "versions": [
+        {
+            "version": "42083c201a183a495c7300b5cc030327899bb750",
+            "download": "https://github.com/TGRHavoc/live_map/archive/42083c201a183a495c7300b5cc030327899bb750.zip",
+            "path": "live_map-42083c201a183a495c7300b5cc030327899bb750"
+        },
+        {
+            "version": "6e85c30f5998a86897a69c91859ac673f1cc2c55",
+            "download": "https://github.com/TGRHavoc/live_map/archive/6e85c30f5998a86897a69c91859ac673f1cc2c55.zip",
+            "path": "live_map-6e85c30f5998a86897a69c91859ac673f1cc2c55"
+        },
+        {
+            "version": "faec2454d397656f5ac6e58ca0d5c13152bbb3be",
+            "download": "https://github.com/TGRHavoc/live_map/archive/faec2454d397656f5ac6e58ca0d5c13152bbb3be.zip",
+            "path": "live_map-faec2454d397656f5ac6e58ca0d5c13152bbb3be"
+        },
+        {
+            "version": "907c4eae105670c3d9863140010de304d7df5c2c",
+            "download": "https://github.com/TGRHavoc/live_map/archive/907c4eae105670c3d9863140010de304d7df5c2c.zip",
+            "path": "live_map-907c4eae105670c3d9863140010de304d7df5c2c"
+        },
+        {
+            "version": "db39357266a3a3bf26c6c99e49bcb43d6b9e20c4",
+            "download": "https://github.com/TGRHavoc/live_map/archive/db39357266a3a3bf26c6c99e49bcb43d6b9e20c4.zip",
+            "path": "live_map-db39357266a3a3bf26c6c99e49bcb43d6b9e20c4"
+        },
+        {
+            "version": "580495cf6126f528d3e15e66dd11c4d7a56b24ad",
+            "download": "https://github.com/TGRHavoc/live_map/archive/580495cf6126f528d3e15e66dd11c4d7a56b24ad.zip",
+            "path": "live_map-580495cf6126f528d3e15e66dd11c4d7a56b24ad"
+        },
+        {
+            "version": "dec5c9f557d04bd855c1910d6275f8104618b8f9",
+            "download": "https://github.com/TGRHavoc/live_map/archive/dec5c9f557d04bd855c1910d6275f8104618b8f9.zip",
+            "path": "live_map-dec5c9f557d04bd855c1910d6275f8104618b8f9"
+        },
+        {
+            "version": "0a5de151d8e4d5bb6498924dfd9e911a610e6abb",
+            "download": "https://github.com/TGRHavoc/live_map/archive/0a5de151d8e4d5bb6498924dfd9e911a610e6abb.zip",
+            "path": "live_map-0a5de151d8e4d5bb6498924dfd9e911a610e6abb"
+        },
+        {
+            "version": "ead5fc23d647018894f02ac0c24f9df9d6588618",
+            "download": "https://github.com/TGRHavoc/live_map/archive/ead5fc23d647018894f02ac0c24f9df9d6588618.zip",
+            "path": "live_map-ead5fc23d647018894f02ac0c24f9df9d6588618"
+        },
+        {
+            "version": "63a2ad848d3224e308ba141d6fb02906eeb341c3",
+            "download": "https://github.com/TGRHavoc/live_map/archive/63a2ad848d3224e308ba141d6fb02906eeb341c3.zip",
+            "path": "live_map-63a2ad848d3224e308ba141d6fb02906eeb341c3"
+        },
+        {
+            "version": "81811fb53e43a93004826cdfa0d54b6be1d214ef",
+            "download": "https://github.com/TGRHavoc/live_map/archive/81811fb53e43a93004826cdfa0d54b6be1d214ef.zip",
+            "path": "live_map-81811fb53e43a93004826cdfa0d54b6be1d214ef"
+        },
+        {
+            "version": "e1de1d6b866ea07a7104ca2faf2f13283a39f4b0",
+            "download": "https://github.com/TGRHavoc/live_map/archive/e1de1d6b866ea07a7104ca2faf2f13283a39f4b0.zip",
+            "path": "live_map-e1de1d6b866ea07a7104ca2faf2f13283a39f4b0"
+        },
+        {
+            "version": "15a4abbfb4da21cf636d66dcb3b1b541fd2ba4b2",
+            "download": "https://github.com/TGRHavoc/live_map/archive/15a4abbfb4da21cf636d66dcb3b1b541fd2ba4b2.zip",
+            "path": "live_map-15a4abbfb4da21cf636d66dcb3b1b541fd2ba4b2"
+        },
+        {
+            "version": "c95989c71b85fa3ee2404684010604771831b219",
+            "download": "https://github.com/TGRHavoc/live_map/archive/c95989c71b85fa3ee2404684010604771831b219.zip",
+            "path": "live_map-c95989c71b85fa3ee2404684010604771831b219"
+        },
+        {
+            "version": "5f6dc45fb48dfe20dd134e80539d871bf2523b79",
+            "download": "https://github.com/TGRHavoc/live_map/archive/5f6dc45fb48dfe20dd134e80539d871bf2523b79.zip",
+            "path": "live_map-5f6dc45fb48dfe20dd134e80539d871bf2523b79"
+        },
+        {
+            "version": "969a8775499da6cb21bf347dd3bb12b7ac8b822d",
+            "download": "https://github.com/TGRHavoc/live_map/archive/969a8775499da6cb21bf347dd3bb12b7ac8b822d.zip",
+            "path": "live_map-969a8775499da6cb21bf347dd3bb12b7ac8b822d"
+        },
+        {
+            "version": "c3f31aebc2130923352201fea033b775dc890a51",
+            "download": "https://github.com/TGRHavoc/live_map/archive/c3f31aebc2130923352201fea033b775dc890a51.zip",
+            "path": "live_map-c3f31aebc2130923352201fea033b775dc890a51"
+        },
+        {
+            "version": "9a206effef01ce9aeaeac73dc3952f7a810bec8b",
+            "download": "https://github.com/TGRHavoc/live_map/archive/9a206effef01ce9aeaeac73dc3952f7a810bec8b.zip",
+            "path": "live_map-9a206effef01ce9aeaeac73dc3952f7a810bec8b"
+        },
+        {
+            "version": "e67776f99c01b2e5fd03685891d28cdf8cd443d4",
+            "download": "https://github.com/TGRHavoc/live_map/archive/e67776f99c01b2e5fd03685891d28cdf8cd443d4.zip",
+            "path": "live_map-e67776f99c01b2e5fd03685891d28cdf8cd443d4"
+        },
+        {
+            "version": "80a02966da4b552954665496f73aca977a73551c",
+            "download": "https://github.com/TGRHavoc/live_map/archive/80a02966da4b552954665496f73aca977a73551c.zip",
+            "path": "live_map-80a02966da4b552954665496f73aca977a73551c"
+        },
+        {
+            "version": "8fd4c848ce31c50202cdab4a1af7dd4dd9fc0317",
+            "download": "https://github.com/TGRHavoc/live_map/archive/8fd4c848ce31c50202cdab4a1af7dd4dd9fc0317.zip",
+            "path": "live_map-8fd4c848ce31c50202cdab4a1af7dd4dd9fc0317"
+        },
+        {
+            "version": "b70b345d9d2e000dcbf5cc1a9d2687db726105a9",
+            "download": "https://github.com/TGRHavoc/live_map/archive/b70b345d9d2e000dcbf5cc1a9d2687db726105a9.zip",
+            "path": "live_map-b70b345d9d2e000dcbf5cc1a9d2687db726105a9"
+        },
+        {
+            "version": "57a60941b10f60acea729c5112bfb849bb01e0f6",
+            "download": "https://github.com/TGRHavoc/live_map/archive/57a60941b10f60acea729c5112bfb849bb01e0f6.zip",
+            "path": "live_map-57a60941b10f60acea729c5112bfb849bb01e0f6"
+        },
+        {
+            "version": "793512dd1c657af71b23443a45534ebb69b4f9c3",
+            "download": "https://github.com/TGRHavoc/live_map/archive/793512dd1c657af71b23443a45534ebb69b4f9c3.zip",
+            "path": "live_map-793512dd1c657af71b23443a45534ebb69b4f9c3"
+        },
+        {
+            "version": "2f4997faf2c973b55d4586ef86db7e8eef35e2ce",
+            "download": "https://github.com/TGRHavoc/live_map/archive/2f4997faf2c973b55d4586ef86db7e8eef35e2ce.zip",
+            "path": "live_map-2f4997faf2c973b55d4586ef86db7e8eef35e2ce"
+        },
+        {
+            "version": "6b0e71126ee308c0b6a90429fac107bd9dce0e8d",
+            "download": "https://github.com/TGRHavoc/live_map/archive/6b0e71126ee308c0b6a90429fac107bd9dce0e8d.zip",
+            "path": "live_map-6b0e71126ee308c0b6a90429fac107bd9dce0e8d"
+        },
+        {
+            "version": "744ac4105bacd78a0fbc9c022a334b3cdc14523d",
+            "download": "https://github.com/TGRHavoc/live_map/archive/744ac4105bacd78a0fbc9c022a334b3cdc14523d.zip",
+            "path": "live_map-744ac4105bacd78a0fbc9c022a334b3cdc14523d"
+        },
+        {
+            "version": "5bbee05b6714f12a25356d16798bdbcc4b048822",
+            "download": "https://github.com/TGRHavoc/live_map/archive/5bbee05b6714f12a25356d16798bdbcc4b048822.zip",
+            "path": "live_map-5bbee05b6714f12a25356d16798bdbcc4b048822"
+        },
+        {
+            "version": "64ff0084e0d46e21554242fd189983ae4a24235f",
+            "download": "https://github.com/TGRHavoc/live_map/archive/64ff0084e0d46e21554242fd189983ae4a24235f.zip",
+            "path": "live_map-64ff0084e0d46e21554242fd189983ae4a24235f"
+        },
+        {
+            "version": "7892791131ffe716efa0e29cd9d270306fe8172a",
+            "download": "https://github.com/TGRHavoc/live_map/archive/7892791131ffe716efa0e29cd9d270306fe8172a.zip",
+            "path": "live_map-7892791131ffe716efa0e29cd9d270306fe8172a"
+        }
+    ]
+}
