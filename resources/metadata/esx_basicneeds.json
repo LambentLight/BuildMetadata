@@ -22,16 +22,5 @@
         "ESX",
         "esx_status"
     ],
-    "versions": [
-        {
-            "version": "1.0.1",
-            "download": "https://github.com/ESX-Org/esx_basicneeds/archive/1.0.1.zip",
-            "path": "esx_basicneeds-1.0.1"
-        },
-        {
-            "version": "1.0.0",
-            "download": "https://github.com/ESX-Org/esx_basicneeds/archive/1.0.0.zip",
-            "path": "esx_basicneeds-1.0.0"
-        }
-    ]
+    "versions": []
 }

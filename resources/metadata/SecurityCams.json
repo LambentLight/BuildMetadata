@@ -20,51 +20,5 @@
     "install": {
         "destination": "securitycams"
     },
-    "versions": [
-        {
-            "version": "9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0",
-            "download": "https://github.com/xander1998/securitycams/archive/9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0.zip",
-            "path": "securitycams-9e9c151d4c1d55b4fcd18b668b5cdca6b70c4df0"
-        },
-        {
-            "version": "da388f4503416b446b007f954413046f972c11a7",
-            "download": "https://github.com/xander1998/securitycams/archive/da388f4503416b446b007f954413046f972c11a7.zip",
-            "path": "securitycams-da388f4503416b446b007f954413046f972c11a7"
-        },
-        {
-            "version": "1d6dc8f465fd55f7d236854893342a26b41faae2",
-            "download": "https://github.com/xander1998/securitycams/archive/1d6dc8f465fd55f7d236854893342a26b41faae2.zip",
-            "path": "securitycams-1d6dc8f465fd55f7d236854893342a26b41faae2"
-        },
-        {
-            "version": "f295a1a00776d086ae17eb97f7a33b282ba7e08f",
-            "download": "https://github.com/xander1998/securitycams/archive/f295a1a00776d086ae17eb97f7a33b282ba7e08f.zip",
-            "path": "securitycams-f295a1a00776d086ae17eb97f7a33b282ba7e08f"
-        },
-        {
-            "version": "7804fc2c97c825cde352ad179737f09db6d09b11",
-            "download": "https://github.com/xander1998/securitycams/archive/7804fc2c97c825cde352ad179737f09db6d09b11.zip",
-            "path": "securitycams-7804fc2c97c825cde352ad179737f09db6d09b11"
-        },
-        {
-            "version": "64b1f66773bfa7b985d0af12e6b0ff5409bc2d15",
-            "download": "https://github.com/xander1998/securitycams/archive/64b1f66773bfa7b985d0af12e6b0ff5409bc2d15.zip",
-            "path": "securitycams-64b1f66773bfa7b985d0af12e6b0ff5409bc2d15"
-        },
-        {
-            "version": "e202da57919278a82878f1e93d8877c8cf743da9",
-            "download": "https://github.com/xander1998/securitycams/archive/e202da57919278a82878f1e93d8877c8cf743da9.zip",
-            "path": "securitycams-e202da57919278a82878f1e93d8877c8cf743da9"
-        },
-        {
-            "version": "755981f81bb9895419ed109ccb4f03e6e2b1dc6a",
-            "download": "https://github.com/xander1998/securitycams/archive/755981f81bb9895419ed109ccb4f03e6e2b1dc6a.zip",
-            "path": "securitycams-755981f81bb9895419ed109ccb4f03e6e2b1dc6a"
-        },
-        {
-            "version": "bbcdbbecfb22df84f5ac8ccbb2e16676e93fc587",
-            "download": "https://github.com/xander1998/securitycams/archive/bbcdbbecfb22df84f5ac8ccbb2e16676e93fc587.zip",
-            "path": "securitycams-bbcdbbecfb22df84f5ac8ccbb2e16676e93fc587"
-        }
-    ]
+    "versions": []
 }
