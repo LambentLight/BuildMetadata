@@ -1,0 +1,39 @@
+{
+    "info": {
+        "name": "esx_taxijob",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_taxijob",
+            "patches": {
+                "*": {
+                    "path": "esx_taxijob-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_taxijob"
+    },
+    "requires": [
+        "ESX",
+        "esx_service",
+        "esx_society",
+        "esx_billing"
+    ],
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_taxijob/archive/1.0.1.zip",
+            "path": "esx_taxijob-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_taxijob/archive/1.0.0.zip",
+            "path": "esx_taxijob-1.0.0"
+        }
+    ]
+}

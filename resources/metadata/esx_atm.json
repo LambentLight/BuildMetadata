@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_atm",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_atm",
+            "patches": {
+                "*": {
+                    "path": "esx_atm-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_atm"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_atm/archive/1.0.0.zip",
+            "path": "esx_atm-1.0.0"
+        }
+    ]
+}

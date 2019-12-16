@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_animations",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_animations",
+            "patches": {
+                "*": {
+                    "path": "esx_animations-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_animations"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_animations/archive/1.0.0.zip",
+            "path": "esx_animations-1.0.0"
+        }
+    ]
+}

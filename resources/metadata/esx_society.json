@@ -20,7 +20,8 @@
     },
     "requires": [
         "ESX",
-        "cron"
+        "cron",
+        "esx_addonaccount"
     ],
     "versions": [
         {

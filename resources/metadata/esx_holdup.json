@@ -1,0 +1,42 @@
+{
+    "info": {
+        "name": "esx_holdup",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_holdup",
+            "patches": {
+                "*": {
+                    "path": "esx_holdup-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_holdup"
+    },
+    "requires": [
+        "ESX",
+        "esx_policejob"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_holdup/archive/1.1.0.zip",
+            "path": "esx_holdup-1.1.0"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_holdup/archive/1.0.1.zip",
+            "path": "esx_holdup-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_holdup/archive/1.0.0.zip",
+            "path": "esx_holdup-1.0.0"
+        }
+    ]
+}

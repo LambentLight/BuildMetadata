@@ -1,0 +1,41 @@
+{
+    "info": {
+        "name": "esx_sit",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_sit",
+            "patches": {
+                "*": {
+                    "path": "esx_sit-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_sit"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.3",
+            "download": "https://github.com/ESX-Org/esx_sit/archive/1.0.3.zip",
+            "path": "esx_sit-1.0.3"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_sit/archive/1.0.1.zip",
+            "path": "esx_sit-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_sit/archive/1.0.0.zip",
+            "path": "esx_sit-1.0.0"
+        }
+    ]
+}

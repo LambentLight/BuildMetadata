@@ -1,0 +1,84 @@
+{
+    "info": {
+        "name": "esx_ambulancejob",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_ambulancejob",
+            "patches": {
+                "*": {
+                    "path": "esx_ambulancejob-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_ambulancejob"
+    },
+    "requires": [
+        "ESX",
+        "esx_skin",
+        "esx_vehicleshop",
+        "esx_society"
+    ],
+    "versions": [
+        {
+            "version": "1.2.0",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.2.0.zip",
+            "path": "esx_ambulancejob-1.2.0"
+        },
+        {
+            "version": "1.1.1",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.1.1.zip",
+            "path": "esx_ambulancejob-1.1.1"
+        },
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.1.0.zip",
+            "path": "esx_ambulancejob-1.1.0"
+        },
+        {
+            "version": "1.0.7",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.7.zip",
+            "path": "esx_ambulancejob-1.0.7"
+        },
+        {
+            "version": "1.0.6",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.6.zip",
+            "path": "esx_ambulancejob-1.0.6"
+        },
+        {
+            "version": "1.0.5",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.5.zip",
+            "path": "esx_ambulancejob-1.0.5"
+        },
+        {
+            "version": "1.0.4",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.4.zip",
+            "path": "esx_ambulancejob-1.0.4"
+        },
+        {
+            "version": "1.0.3",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.3.zip",
+            "path": "esx_ambulancejob-1.0.3"
+        },
+        {
+            "version": "1.0.2",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.2.zip",
+            "path": "esx_ambulancejob-1.0.2"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.1.zip",
+            "path": "esx_ambulancejob-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_ambulancejob/archive/1.0.0.zip",
+            "path": "esx_ambulancejob-1.0.0"
+        }
+    ]
+}

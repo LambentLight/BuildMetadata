@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_billing",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_billing",
+            "patches": {
+                "*": {
+                    "path": "esx_billing-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_billing"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_billing/archive/1.1.0.zip",
+            "path": "esx_billing-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_billing/archive/1.0.0.zip",
+            "path": "esx_billing-1.0.0"
+        }
+    ]
+}

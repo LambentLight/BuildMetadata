@@ -1,0 +1,38 @@
+{
+    "info": {
+        "name": "esx_jobs",
+        "author": "ESX-Org"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_jobs",
+            "patches": {
+                "*": {
+                    "path": "esx_jobs-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_jobs"
+    },
+    "requires": [
+        "ESX",
+        "esx_addonaccount",
+        "esx_skin"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_jobs/archive/1.1.0.zip",
+            "path": "esx_jobs-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_jobs/archive/1.0.0.zip",
+            "path": "esx_jobs-1.0.0"
+        }
+    ]
+}

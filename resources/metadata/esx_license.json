@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_license",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_license",
+            "patches": {
+                "*": {
+                    "path": "esx_license-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_license"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_license/archive/1.0.0.zip",
+            "path": "esx_license-1.0.0"
+        }
+    ]
+}

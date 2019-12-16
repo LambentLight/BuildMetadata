@@ -1,0 +1,41 @@
+{
+    "info": {
+        "name": "esx_vehicleshop",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_vehicleshop",
+            "patches": {
+                "*": {
+                    "path": "esx_vehicleshop-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_vehicleshop"
+    },
+    "requires": [
+        "ESX",
+        "esx_society",
+        "esx_billing",
+        "esx_addonaccount",
+        "esx_addoninventory",
+        "cron"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_vehicleshop/archive/1.1.0.zip",
+            "path": "esx_vehicleshop-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_vehicleshop/archive/1.0.0.zip",
+            "path": "esx_vehicleshop-1.0.0"
+        }
+    ]
+}

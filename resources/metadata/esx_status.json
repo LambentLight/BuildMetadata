@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_status",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_status",
+            "patches": {
+                "*": {
+                    "path": "esx_status-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_status"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_status/archive/1.0.0.zip",
+            "path": "esx_status-1.0.0"
+        }
+    ]
+}

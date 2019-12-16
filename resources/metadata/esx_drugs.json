@@ -1,0 +1,46 @@
+{
+    "info": {
+        "name": "esx_drugs",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_drugs",
+            "patches": {
+                "*": {
+                    "path": "esx_drugs-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_drugs"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "2.0.0",
+            "download": "https://github.com/ESX-Org/esx_drugs/archive/2.0.0.zip",
+            "path": "esx_drugs-2.0.0"
+        },
+        {
+            "version": "1.0.2",
+            "download": "https://github.com/ESX-Org/esx_drugs/archive/1.0.2.zip",
+            "path": "esx_drugs-1.0.2"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_drugs/archive/1.0.1.zip",
+            "path": "esx_drugs-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_drugs/archive/1.0.0.zip",
+            "path": "esx_drugs-1.0.0"
+        }
+    ]
+}

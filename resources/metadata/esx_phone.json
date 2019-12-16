@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_phone",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_phone",
+            "patches": {
+                "*": {
+                    "path": "esx_phone-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_phone"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_phone/archive/1.1.0.zip",
+            "path": "esx_phone-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_phone/archive/1.0.0.zip",
+            "path": "esx_phone-1.0.0"
+        }
+    ]
+}

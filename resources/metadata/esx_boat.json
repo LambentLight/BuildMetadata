@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "esx_boat",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_boat",
+            "patches": {
+                "*": {
+                    "path": "esx_boat-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_boat"
+    },
+    "requires": [
+        "ESX",
+        "esx_vehicleshop"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_boat/archive/v1.0.0.zip",
+            "path": "esx_boat-1.0.0"
+        }
+    ]
+}

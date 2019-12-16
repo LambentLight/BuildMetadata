@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "esx_optionalneeds",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_optionalneeds",
+            "patches": {
+                "*": {
+                    "path": "esx_optionalneeds-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_optionalneeds"
+    },
+    "requires": [
+        "ESX",
+        "esx_status"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_optionalneeds/archive/1.0.0.zip",
+            "path": "esx_optionalneeds-1.0.0"
+        }
+    ]
+}

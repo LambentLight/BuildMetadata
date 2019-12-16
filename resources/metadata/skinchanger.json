@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "skinchanger",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "skinchanger",
+            "patches": {
+                "*": {
+                    "path": "skinchanger-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "skinchanger"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/skinchanger/archive/1.0.1.zip",
+            "path": "skinchanger-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/skinchanger/archive/1.0.0.zip",
+            "path": "skinchanger-1.0.0"
+        }
+    ]
+}

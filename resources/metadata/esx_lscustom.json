@@ -1,0 +1,37 @@
+{
+    "info": {
+        "name": "esx_lscustom",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_lscustom",
+            "patches": {
+                "*": {
+                    "path": "esx_lscustom-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_lscustom"
+    },
+    "requires": [
+        "ESX",
+        "esx_vehicleshop"
+    ],
+    "versions": [
+        {
+            "version": "2.0.0",
+            "download": "https://github.com/ESX-Org/esx_lscustom/archive/2.0.0.zip",
+            "path": "esx_lscustom-2.0.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_lscustom/archive/1.0.0.zip",
+            "path": "esx_lscustom-1.0.0"
+        }
+    ]
+}

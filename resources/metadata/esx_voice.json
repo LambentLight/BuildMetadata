@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_voice",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_voice",
+            "patches": {
+                "*": {
+                    "path": "esx_voice-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_voice"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_voice/archive/1.1.0.zip",
+            "path": "esx_voice-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_voice/archive/1.0.0.zip",
+            "path": "esx_voice-1.0.0"
+        }
+    ]
+}

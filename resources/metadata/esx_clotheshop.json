@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "esx_clotheshop",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_clotheshop",
+            "patches": {
+                "*": {
+                    "path": "esx_clotheshop-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_clotheshop"
+    },
+    "requires": [
+        "ESX",
+        "esx_skin"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_clotheshop/archive/1.0.0.zip",
+            "path": "esx_clotheshop-1.0.0"
+        }
+    ]
+}

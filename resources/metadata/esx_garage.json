@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "esx_garage",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_garage",
+            "patches": {
+                "*": {
+                    "path": "esx_garage-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_garage"
+    },
+    "requires": [
+        "ESX",
+        "instance"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_garage/archive/1.0.0.zip",
+            "path": "esx_garage-1.0.0"
+        }
+    ]
+}

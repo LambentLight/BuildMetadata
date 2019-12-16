@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "esx_addoninventory",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_addoninventory",
+            "patches": {
+                "*": {
+                    "path": "esx_addoninventory-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_addoninventory"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_addoninventory/archive/1.0.0.zip",
+            "path": "esx_addoninventory-1.0.0"
+        }
+    ]
+}

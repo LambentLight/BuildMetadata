@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_shops",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_shops",
+            "patches": {
+                "*": {
+                    "path": "esx_shops-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_shops"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_shops/archive/1.1.0.zip",
+            "path": "esx_shops-1.1.0"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_shops/archive/1.0.0.zip",
+            "path": "esx_shops-1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "info": {
+        "name": "esx_property",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_property",
+            "patches": {
+                "*": {
+                    "path": "esx_property-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_property"
+    },
+    "requires": [
+        "ESX",
+        "instance",
+        "cron",
+        "esx_addonaccount",
+        "esx_addoninventory",
+        "esx_datastore"
+    ],
+    "versions": [
+        {
+            "version": "1.0.3",
+            "download": "https://github.com/ESX-Org/esx_property/archive/1.0.3.zip",
+            "path": "esx_property-1.0.3"
+        },
+        {
+            "version": "1.0.2",
+            "download": "https://github.com/ESX-Org/esx_property/archive/1.0.2.zip",
+            "path": "esx_property-1.0.2"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_property/archive/1.0.1.zip",
+            "path": "esx_property-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_property/archive/1.0.0.zip",
+            "path": "esx_property-1.0.0"
+        }
+    ]
+}

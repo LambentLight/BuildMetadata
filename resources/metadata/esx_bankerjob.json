@@ -1,0 +1,39 @@
+{
+    "info": {
+        "name": "esx_bankerjob",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_bankerjob",
+            "patches": {
+                "*": {
+                    "path": "esx_bankerjob-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_bankerjob"
+    },
+    "requires": [
+        "ESX",
+        "cron",
+        "esx_addonaccount",
+        "esx_society"
+    ],
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_bankerjob/archive/1.0.1.zip",
+            "path": "esx_bankerjob-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_bankerjob/archive/1.0.0.zip",
+            "path": "esx_bankerjob-1.0.0"
+        }
+    ]
+}

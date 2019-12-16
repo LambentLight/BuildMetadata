@@ -36,7 +36,87 @@
         "author": "ESX"
     },
     {
+        "name": "esx_accessories",
+        "author": "ESX"
+    },
+    {
         "name": "esx_addonaccount",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_addoninventory",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_ambulancejob",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_animations",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_atm",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_bankerjob",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_barbershop",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_basicneeds",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_billing",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_boat",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_clotheshop",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_datastore",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_drugs",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_garage",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_holdup",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_identity",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_joblisting",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_jobs",
+        "author": "ESX-Org"
+    },
+    {
+        "name": "esx_license",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_lscustom",
         "author": "ESX"
     },
     {
@@ -56,11 +136,75 @@
         "author": "ESX"
     },
     {
+        "name": "esx_optionalneeds",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_phone",
+        "author": "ESX"
+    },
+    {
         "name": "esx_policejob",
         "author": "ESX"
     },
     {
+        "name": "esx_property",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_realestateagentjob",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_rpchat",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_service",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_shops",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_sit",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_skin",
+        "author": "ESX"
+    },
+    {
         "name": "esx_society",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_status",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_taxijob",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_vehicleshop",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_voice",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_weaponshop",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_whitelist",
+        "author": "ESX"
+    },
+    {
+        "name": "esx_whitelistEnhanced",
         "author": "ESX"
     },
     {
@@ -70,6 +214,10 @@
     {
         "name": "ghmattimysql",
         "author": "GHMatti"
+    },
+    {
+        "name": "instance",
+        "author": "ESX"
     },
     {
         "name": "LiveMap",
@@ -103,6 +251,10 @@
     {
         "name": "SecurityCams",
         "author": "xander1998"
+    },
+    {
+        "name": "skinchanger",
+        "author": "ESX"
     },
     {
         "name": "vMenu",

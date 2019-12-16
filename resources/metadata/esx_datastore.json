@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_datastore",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_datastore",
+            "patches": {
+                "*": {
+                    "path": "esx_datastore-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_datastore"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_datastore/archive/1.0.1.zip",
+            "path": "esx_datastore-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_datastore/archive/1.0.0.zip",
+            "path": "esx_datastore-1.0.0"
+        }
+    ]
+}

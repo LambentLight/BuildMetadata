@@ -1,0 +1,41 @@
+{
+    "info": {
+        "name": "esx_weaponshop",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_weaponshop",
+            "patches": {
+                "*": {
+                    "path": "esx_weaponshop-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_weaponshop"
+    },
+    "requires": [
+        "ESX"
+    ],
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/ESX-Org/esx_weaponshop/archive/1.1.0.zip",
+            "path": "esx_weaponshop-1.1.0"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_weaponshop/archive/1.0.1.zip",
+            "path": "esx_weaponshop-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_weaponshop/archive/1.0.0.zip",
+            "path": "esx_weaponshop-1.0.0"
+        }
+    ]
+}

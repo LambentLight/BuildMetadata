@@ -1,0 +1,49 @@
+{
+    "info": {
+        "name": "esx_identity",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_identity",
+            "patches": {
+                "*": {
+                    "path": "esx_identity-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_identity"
+    },
+    "requires": [
+        "ESX",
+        "esx_skin",
+        "esx_policejob",
+        "esx_society"
+    ],
+    "versions": [
+        {
+            "version": "1.0.3",
+            "download": "https://github.com/ESX-Org/esx_identity/archive/1.0.3.zip",
+            "path": "esx_identity-1.0.3"
+        },
+        {
+            "version": "1.0.2",
+            "download": "https://github.com/ESX-Org/esx_identity/archive/1.0.2.zip",
+            "path": "esx_identity-1.0.2"
+        },
+        {
+            "version": "1.0.1",
+            "download": "https://github.com/ESX-Org/esx_identity/archive/1.0.1.zip",
+            "path": "esx_identity-1.0.1"
+        },
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_identity/archive/1.0.0.zip",
+            "path": "esx_identity-1.0.0"
+        }
+    ]
+}

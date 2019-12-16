@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "esx_accessories",
+        "author": "ESX"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "ESX-Org",
+            "repo": "esx_accessories",
+            "patches": {
+                "*": {
+                    "path": "esx_accessories-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_accessories"
+    },
+    "requires": [
+        "ESX",
+        "esx_skin",
+        "esx_datastore"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/ESX-Org/esx_accessories/archive/1.0.0.zip",
+            "path": "esx_accessories-1.0.0"
+        }
+    ]
+}
