@@ -22,7 +22,8 @@
     "requires": [
         "mysql-async",
         "async",
-        "essentialmode"
+        "essentialmode",
+        "esplugin_mysql"
     ],
     "versions": [
         {
