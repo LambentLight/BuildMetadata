@@ -2,12 +2,10 @@ YES = ["true", "yes", "y", "si", "s", "1"]
 NO = ["false", "no", "n", "0"]
 
 
-def ensure_input(message, default=""):
+def ensure_input(message, default=None):
     """
     Asks the user to input something until he actually does it.
     """
-    # Make the default value a string
-    default = str(default)
     # Save the user input somewhere
     user_input = ""
 
@@ -19,8 +17,8 @@ def ensure_input(message, default=""):
         user_input = new_input.strip()
 
         # If user_input is empty and there is a default value, return it
-        if not user_input and default:
-            return default
+        if not user_input and default is not None:
+            return str(default)
 
     # Finally, return the input of the user
     return user_input

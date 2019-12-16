@@ -89,7 +89,7 @@ def create_new():
     name = ensure_input("What is the name of the resource? [] > ")
     author = ensure_input("Who is the author of the resource? [] > ")
     destination = ensure_input("What is the destination folder of the resource? [] > ")
-    requires = ensure_input("What other resources does this one requires? (separate them with comas) [] > ")
+    requires = ensure_input("What other resources does this one requires? (separate them with comas) [] > ", "")
     update = parse_bool(ensure_input("Should this resource be updated automatically via GitHub? [y/n] > ", False))
 
     # Create the new object with the data
