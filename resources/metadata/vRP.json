@@ -21,6 +21,9 @@
     "install": {
         "destination": "vrp"
     },
+    "requires": [
+        "vRP MySQL"
+    ],
     "versions": [
         {
             "version": "7b621b6589d653f0578535cb0a2d35dc7ca42e3d",
