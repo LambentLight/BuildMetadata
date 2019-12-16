@@ -1,0 +1,143 @@
+{
+    "info": {
+        "name": "MySQL for EssentialMode",
+        "author": "kanersps"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "kanersps",
+            "repo": "esplugin_mysql",
+            "patches": {
+                "*": {
+                    "path": "esplugin_mysql-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "esplugin_mysql"
+    },
+    "requires": [
+        "mysql-async"
+    ],
+    "versions": [
+        {
+            "version": "3bebe7f8ac0f40ca71ab2214e21887167cf88870",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/3bebe7f8ac0f40ca71ab2214e21887167cf88870.zip",
+            "path": "esplugin_mysql-3bebe7f8ac0f40ca71ab2214e21887167cf88870"
+        },
+        {
+            "version": "3f002c47785d729d286cde1ce9607a2e2ad8250f",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/3f002c47785d729d286cde1ce9607a2e2ad8250f.zip",
+            "path": "esplugin_mysql-3f002c47785d729d286cde1ce9607a2e2ad8250f"
+        },
+        {
+            "version": "7d37a787b0105ab310377591ec079be57d26695c",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/7d37a787b0105ab310377591ec079be57d26695c.zip",
+            "path": "esplugin_mysql-7d37a787b0105ab310377591ec079be57d26695c"
+        },
+        {
+            "version": "d63509c1500863d3d00930619bd00e9489daa2c3",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/d63509c1500863d3d00930619bd00e9489daa2c3.zip",
+            "path": "esplugin_mysql-d63509c1500863d3d00930619bd00e9489daa2c3"
+        },
+        {
+            "version": "e2ff44e0514dbfd6752cf345c8a011132851cc2a",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/e2ff44e0514dbfd6752cf345c8a011132851cc2a.zip",
+            "path": "esplugin_mysql-e2ff44e0514dbfd6752cf345c8a011132851cc2a"
+        },
+        {
+            "version": "807a6a0e9eb50ac74d8b0f6623d93c3a0b234156",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/807a6a0e9eb50ac74d8b0f6623d93c3a0b234156.zip",
+            "path": "esplugin_mysql-807a6a0e9eb50ac74d8b0f6623d93c3a0b234156"
+        },
+        {
+            "version": "8d71f75a182f72bf9b61629afd234b493a5903ae",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/8d71f75a182f72bf9b61629afd234b493a5903ae.zip",
+            "path": "esplugin_mysql-8d71f75a182f72bf9b61629afd234b493a5903ae"
+        },
+        {
+            "version": "96a1dddb5662663ffd17cef7a7309815dae2cd1d",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/96a1dddb5662663ffd17cef7a7309815dae2cd1d.zip",
+            "path": "esplugin_mysql-96a1dddb5662663ffd17cef7a7309815dae2cd1d"
+        },
+        {
+            "version": "0f971f7644bd5d8a297bb85914ce5437bfa9ceb2",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/0f971f7644bd5d8a297bb85914ce5437bfa9ceb2.zip",
+            "path": "esplugin_mysql-0f971f7644bd5d8a297bb85914ce5437bfa9ceb2"
+        },
+        {
+            "version": "319f3cd335488ca25f26947ac87b37d94f88eb20",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/319f3cd335488ca25f26947ac87b37d94f88eb20.zip",
+            "path": "esplugin_mysql-319f3cd335488ca25f26947ac87b37d94f88eb20"
+        },
+        {
+            "version": "59a9feb6bdcc8170b6bb03bea00dd05e8d434896",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/59a9feb6bdcc8170b6bb03bea00dd05e8d434896.zip",
+            "path": "esplugin_mysql-59a9feb6bdcc8170b6bb03bea00dd05e8d434896"
+        },
+        {
+            "version": "a2131024f47bc9bf23cd5d360ea9c97c9125b60f",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/a2131024f47bc9bf23cd5d360ea9c97c9125b60f.zip",
+            "path": "esplugin_mysql-a2131024f47bc9bf23cd5d360ea9c97c9125b60f"
+        },
+        {
+            "version": "407023cf041d11ec919aec811455459823c24e93",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/407023cf041d11ec919aec811455459823c24e93.zip",
+            "path": "esplugin_mysql-407023cf041d11ec919aec811455459823c24e93"
+        },
+        {
+            "version": "c760da36770fd7c09ff94c3028bbf64bb5296023",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/c760da36770fd7c09ff94c3028bbf64bb5296023.zip",
+            "path": "esplugin_mysql-c760da36770fd7c09ff94c3028bbf64bb5296023"
+        },
+        {
+            "version": "d831141e299a07bd03c46b4b581d399a7a759541",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/d831141e299a07bd03c46b4b581d399a7a759541.zip",
+            "path": "esplugin_mysql-d831141e299a07bd03c46b4b581d399a7a759541"
+        },
+        {
+            "version": "0b91a1d6c35fca9210d8359a289ae60b9032701c",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/0b91a1d6c35fca9210d8359a289ae60b9032701c.zip",
+            "path": "esplugin_mysql-0b91a1d6c35fca9210d8359a289ae60b9032701c"
+        },
+        {
+            "version": "61410c1cff4ed2d83211abd739b0316e86d274de",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/61410c1cff4ed2d83211abd739b0316e86d274de.zip",
+            "path": "esplugin_mysql-61410c1cff4ed2d83211abd739b0316e86d274de"
+        },
+        {
+            "version": "f4c868efd476537777a5fc7f1c1bf6235de2b101",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/f4c868efd476537777a5fc7f1c1bf6235de2b101.zip",
+            "path": "esplugin_mysql-f4c868efd476537777a5fc7f1c1bf6235de2b101"
+        },
+        {
+            "version": "1538e6e1ebc16eecfa7340032eeffdfc3b192665",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/1538e6e1ebc16eecfa7340032eeffdfc3b192665.zip",
+            "path": "esplugin_mysql-1538e6e1ebc16eecfa7340032eeffdfc3b192665"
+        },
+        {
+            "version": "02c299e48d05af14715f2f1f9785c0e988f69ec1",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/02c299e48d05af14715f2f1f9785c0e988f69ec1.zip",
+            "path": "esplugin_mysql-02c299e48d05af14715f2f1f9785c0e988f69ec1"
+        },
+        {
+            "version": "276d53f52d70af2bc494246010e12052a3c10e26",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/276d53f52d70af2bc494246010e12052a3c10e26.zip",
+            "path": "esplugin_mysql-276d53f52d70af2bc494246010e12052a3c10e26"
+        },
+        {
+            "version": "21471b61b8ddc397a372070d04ee03bc94f66ef3",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/21471b61b8ddc397a372070d04ee03bc94f66ef3.zip",
+            "path": "esplugin_mysql-21471b61b8ddc397a372070d04ee03bc94f66ef3"
+        },
+        {
+            "version": "568b3ef04620a7d00712a180467fb6941acd07c6",
+            "download": "https://github.com/kanersps/esplugin_mysql/archive/568b3ef04620a7d00712a180467fb6941acd07c6.zip",
+            "path": "esplugin_mysql-568b3ef04620a7d00712a180467fb6941acd07c6"
+        }
+    ]
+}
