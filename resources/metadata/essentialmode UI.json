@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "essentialmode UI",
+        "author": "kanersps"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "kanersps",
+            "repo": "es_ui",
+            "patches": {
+                "*": {
+                    "path": "es_ui-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "es_ui"
+    },
+    "requires": [
+        "essentialmode"
+    ],
+    "versions": [
+        {
+            "version": "1.0.0",
+            "download": "https://github.com/kanersps/es_ui/archive/1.0.0.zip",
+            "path": "es_ui-1.0.0"
+        }
+    ]
+}
