@@ -30,7 +30,7 @@ def get_commits(**kwargs):
     for commit in get.json():
         # Create the object with the information
         data = {
-            "version": "{0} ({1})".format(commit["sha"], commit["commit"]["message"]),
+            "version": commit["sha"],
             "download": DL_ZIPBALL.format(owner, repo, commit["sha"]),
             "path": patch["path"].format(commit["sha"])
         }
