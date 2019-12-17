@@ -147,7 +147,7 @@ def create_new():
         del data["requires"]
 
     # Create the destination path of the file
-    file_path = f"resources\\metadata\\{name}.json"
+    file_path = f"resources\\gtav\\{name}.json"
     # Open the file for writing
     with open(file_path, "w") as opened:
         # Dump the new resource information
@@ -172,4 +172,4 @@ def get_files():
     """
     Gets a file iterator for the resources/metadata directory.
     """
-    return glob.iglob("resources/metadata/*.json")
+    return glob.iglob("resources/gtav/*.json")

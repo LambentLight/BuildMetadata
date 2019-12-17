@@ -27,7 +27,7 @@ def main():
         update_versions()
     if mode == "all" or mode == "versionmanual":
         name = input("Name of the file that you want to update > ")
-        update_version(f"resources/metadata/{name}")
+        update_version(f"resources/gtav/{name}")
     if mode == "all" or mode == "new":
         create_new()
     if mode == "all" or mode == "list":
