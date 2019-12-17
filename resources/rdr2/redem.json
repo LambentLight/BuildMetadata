@@ -1,0 +1,33 @@
+{
+    "info": {
+        "name": "redem",
+        "author": "kanersps"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "kanersps",
+            "repo": "redem",
+            "patches": {
+                "*": {
+                    "path": "redem-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "redem"
+    },
+    "versions": [
+        {
+            "version": "0.2.0",
+            "download": "https://github.com/kanersps/redem/archive/0.2.0.zip",
+            "path": "redem-0.2.0"
+        },
+        {
+            "version": "0.1.0",
+            "download": "https://github.com/kanersps/redem/archive/0.1.0.zip",
+            "path": "redem-0.1.0"
+        }
+    ]
+}

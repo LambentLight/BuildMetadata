@@ -1,0 +1,48 @@
+{
+    "info": {
+        "name": "esplugin_mysql",
+        "author": "RedEM-RP"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "RedEM-RP",
+            "repo": "esplugin_mysql",
+            "patches": {
+                "*": {
+                    "path": "esplugin_mysql-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "esplugin_mysql"
+    },
+    "requires": [
+        "mysql-async"
+    ],
+    "versions": [
+        {
+            "version": "830f076a8e333128576f2e6ede425c441c8d47ef",
+            "download": "https://github.com/RedEM-RP/esplugin_mysql/archive/830f076a8e333128576f2e6ede425c441c8d47ef.zip",
+            "path": "esplugin_mysql-830f076a8e333128576f2e6ede425c441c8d47ef"
+        },
+        {
+            "version": "3ef80af492bf8d75de4c3d8b36c38f6507272b3d",
+            "download": "https://github.com/RedEM-RP/esplugin_mysql/archive/3ef80af492bf8d75de4c3d8b36c38f6507272b3d.zip",
+            "path": "esplugin_mysql-3ef80af492bf8d75de4c3d8b36c38f6507272b3d"
+        },
+        {
+            "version": "d1a07010117ff5eedbbfc883d8114083e5de058f",
+            "download": "https://github.com/RedEM-RP/esplugin_mysql/archive/d1a07010117ff5eedbbfc883d8114083e5de058f.zip",
+            "path": "esplugin_mysql-d1a07010117ff5eedbbfc883d8114083e5de058f"
+        },
+        {
+            "version": "b459f4319bf2772139d955b48a5c237dbb0cc634",
+            "download": "https://github.com/RedEM-RP/esplugin_mysql/archive/b459f4319bf2772139d955b48a5c237dbb0cc634.zip",
+            "path": "esplugin_mysql-b459f4319bf2772139d955b48a5c237dbb0cc634"
+        }
+    ]
+}

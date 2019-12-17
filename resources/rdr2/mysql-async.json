@@ -1,0 +1,45 @@
+{
+    "info": {
+        "name": "mysql-async",
+        "author": "amakuu"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "amakuu",
+            "repo": "mysql-async-temporary",
+            "patches": {
+                "*": {
+                    "path": "mysql-async-temporary-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "mysql-async"
+    },
+    "versions": [
+        {
+            "version": "b1ac53d8088553c8e74fc249041f8767b944ac42",
+            "download": "https://github.com/amakuu/mysql-async-temporary/archive/b1ac53d8088553c8e74fc249041f8767b944ac42.zip",
+            "path": "mysql-async-temporary-b1ac53d8088553c8e74fc249041f8767b944ac42"
+        },
+        {
+            "version": "4bec5e6f8f68c1957970cbdaba8e5d5c0c2a981d",
+            "download": "https://github.com/amakuu/mysql-async-temporary/archive/4bec5e6f8f68c1957970cbdaba8e5d5c0c2a981d.zip",
+            "path": "mysql-async-temporary-4bec5e6f8f68c1957970cbdaba8e5d5c0c2a981d"
+        },
+        {
+            "version": "f826d1edc4d9061285cf5587b474392e0114acba",
+            "download": "https://github.com/amakuu/mysql-async-temporary/archive/f826d1edc4d9061285cf5587b474392e0114acba.zip",
+            "path": "mysql-async-temporary-f826d1edc4d9061285cf5587b474392e0114acba"
+        },
+        {
+            "version": "5da11cb0961883b4d919bfb21b392d368341e01c",
+            "download": "https://github.com/amakuu/mysql-async-temporary/archive/5da11cb0961883b4d919bfb21b392d368341e01c.zip",
+            "path": "mysql-async-temporary-5da11cb0961883b4d919bfb21b392d368341e01c"
+        }
+    ]
+}

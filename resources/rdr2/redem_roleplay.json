@@ -1,0 +1,180 @@
+{
+    "info": {
+        "name": "redem_roleplay",
+        "author": "RedEM-RP"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "RedEM-RP",
+            "repo": "redem_roleplay",
+            "patches": {
+                "*": {
+                    "path": "redem_roleplay-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 10
+        }
+    },
+    "install": {
+        "destination": "redem_roleplay"
+    },
+    "requires": [
+        "mysql-async",
+        "redem",
+        "esplugin_mysql"
+    ],
+    "versions": [
+        {
+            "version": "32f58dc8a8ed67cab0b6e0f891419113a02b8275",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/32f58dc8a8ed67cab0b6e0f891419113a02b8275.zip",
+            "path": "redem_roleplay-32f58dc8a8ed67cab0b6e0f891419113a02b8275"
+        },
+        {
+            "version": "13cc089768823ada63ba488b8b1a2558d4f65b75",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/13cc089768823ada63ba488b8b1a2558d4f65b75.zip",
+            "path": "redem_roleplay-13cc089768823ada63ba488b8b1a2558d4f65b75"
+        },
+        {
+            "version": "8136bbf10118024379403a6bb43b7b5c9731dc4d",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/8136bbf10118024379403a6bb43b7b5c9731dc4d.zip",
+            "path": "redem_roleplay-8136bbf10118024379403a6bb43b7b5c9731dc4d"
+        },
+        {
+            "version": "8b980ad06aa6a8983a2d8daeb301d0ecf4902bfd",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/8b980ad06aa6a8983a2d8daeb301d0ecf4902bfd.zip",
+            "path": "redem_roleplay-8b980ad06aa6a8983a2d8daeb301d0ecf4902bfd"
+        },
+        {
+            "version": "fcf417f197360884e38d66e75cae644984aea027",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/fcf417f197360884e38d66e75cae644984aea027.zip",
+            "path": "redem_roleplay-fcf417f197360884e38d66e75cae644984aea027"
+        },
+        {
+            "version": "b3a67055bb3d3e65f90b4ccfe79d56f517388d31",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/b3a67055bb3d3e65f90b4ccfe79d56f517388d31.zip",
+            "path": "redem_roleplay-b3a67055bb3d3e65f90b4ccfe79d56f517388d31"
+        },
+        {
+            "version": "2ee0745dc062ded57046ad36ffb839c1d594f358",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/2ee0745dc062ded57046ad36ffb839c1d594f358.zip",
+            "path": "redem_roleplay-2ee0745dc062ded57046ad36ffb839c1d594f358"
+        },
+        {
+            "version": "0920f44bd67ceb600a06317f9575687d415b14ac",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/0920f44bd67ceb600a06317f9575687d415b14ac.zip",
+            "path": "redem_roleplay-0920f44bd67ceb600a06317f9575687d415b14ac"
+        },
+        {
+            "version": "aef0e40e580347f0952d2eda991348f7fe49382b",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/aef0e40e580347f0952d2eda991348f7fe49382b.zip",
+            "path": "redem_roleplay-aef0e40e580347f0952d2eda991348f7fe49382b"
+        },
+        {
+            "version": "c5b72b0ec5f5f035aad1feb3b25bbe89e8344521",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/c5b72b0ec5f5f035aad1feb3b25bbe89e8344521.zip",
+            "path": "redem_roleplay-c5b72b0ec5f5f035aad1feb3b25bbe89e8344521"
+        },
+        {
+            "version": "58d2867ba0807a88a29141478703996d34d9ebdd",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/58d2867ba0807a88a29141478703996d34d9ebdd.zip",
+            "path": "redem_roleplay-58d2867ba0807a88a29141478703996d34d9ebdd"
+        },
+        {
+            "version": "a8ad5fbf103805ae36d88a05c827b52dfa1cee07",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/a8ad5fbf103805ae36d88a05c827b52dfa1cee07.zip",
+            "path": "redem_roleplay-a8ad5fbf103805ae36d88a05c827b52dfa1cee07"
+        },
+        {
+            "version": "c51cd7beebf73012fe5fc09c314940b583f9af51",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/c51cd7beebf73012fe5fc09c314940b583f9af51.zip",
+            "path": "redem_roleplay-c51cd7beebf73012fe5fc09c314940b583f9af51"
+        },
+        {
+            "version": "4d63d4645535e7f27d5090a2215fe578f5e6caef",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/4d63d4645535e7f27d5090a2215fe578f5e6caef.zip",
+            "path": "redem_roleplay-4d63d4645535e7f27d5090a2215fe578f5e6caef"
+        },
+        {
+            "version": "09ca24786279b084d30ffb9031f6bd557cc75c54",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/09ca24786279b084d30ffb9031f6bd557cc75c54.zip",
+            "path": "redem_roleplay-09ca24786279b084d30ffb9031f6bd557cc75c54"
+        },
+        {
+            "version": "b6da5f7129f216746d47755341c3380b3945b43e",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/b6da5f7129f216746d47755341c3380b3945b43e.zip",
+            "path": "redem_roleplay-b6da5f7129f216746d47755341c3380b3945b43e"
+        },
+        {
+            "version": "47af63ae68852d5742d01201209f3d843bf108f0",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/47af63ae68852d5742d01201209f3d843bf108f0.zip",
+            "path": "redem_roleplay-47af63ae68852d5742d01201209f3d843bf108f0"
+        },
+        {
+            "version": "51bcf6c2eda1343eb7ae47f445e799d6842ebd59",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/51bcf6c2eda1343eb7ae47f445e799d6842ebd59.zip",
+            "path": "redem_roleplay-51bcf6c2eda1343eb7ae47f445e799d6842ebd59"
+        },
+        {
+            "version": "dead01d11c45f1dfd8ae8264effbebbc8a71ac93",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/dead01d11c45f1dfd8ae8264effbebbc8a71ac93.zip",
+            "path": "redem_roleplay-dead01d11c45f1dfd8ae8264effbebbc8a71ac93"
+        },
+        {
+            "version": "d86541219af2ada31b28960df481ad239b313bab",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/d86541219af2ada31b28960df481ad239b313bab.zip",
+            "path": "redem_roleplay-d86541219af2ada31b28960df481ad239b313bab"
+        },
+        {
+            "version": "ef882a7aae3307ca552dd03e9eae7bacd32e22d3",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/ef882a7aae3307ca552dd03e9eae7bacd32e22d3.zip",
+            "path": "redem_roleplay-ef882a7aae3307ca552dd03e9eae7bacd32e22d3"
+        },
+        {
+            "version": "843e0f8d3aaa368cc2aaaca92ae91a05c247816f",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/843e0f8d3aaa368cc2aaaca92ae91a05c247816f.zip",
+            "path": "redem_roleplay-843e0f8d3aaa368cc2aaaca92ae91a05c247816f"
+        },
+        {
+            "version": "e639642a546d2d8cfc3d167f12f4dda5c8950260",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/e639642a546d2d8cfc3d167f12f4dda5c8950260.zip",
+            "path": "redem_roleplay-e639642a546d2d8cfc3d167f12f4dda5c8950260"
+        },
+        {
+            "version": "1176e36cd4d32b917653b9c446ed6f0200c98b70",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/1176e36cd4d32b917653b9c446ed6f0200c98b70.zip",
+            "path": "redem_roleplay-1176e36cd4d32b917653b9c446ed6f0200c98b70"
+        },
+        {
+            "version": "6ceed32a356674b2f012a3ab3ef7b475ec2d3b64",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/6ceed32a356674b2f012a3ab3ef7b475ec2d3b64.zip",
+            "path": "redem_roleplay-6ceed32a356674b2f012a3ab3ef7b475ec2d3b64"
+        },
+        {
+            "version": "403a82c0e34bebd05bd5579d65532f42f3f9ca7d",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/403a82c0e34bebd05bd5579d65532f42f3f9ca7d.zip",
+            "path": "redem_roleplay-403a82c0e34bebd05bd5579d65532f42f3f9ca7d"
+        },
+        {
+            "version": "69e3c3b37257d6021528729fb2fee3c60f169573",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/69e3c3b37257d6021528729fb2fee3c60f169573.zip",
+            "path": "redem_roleplay-69e3c3b37257d6021528729fb2fee3c60f169573"
+        },
+        {
+            "version": "2417c5e65ae4196a4c0d9b3830dff139067583d0",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/2417c5e65ae4196a4c0d9b3830dff139067583d0.zip",
+            "path": "redem_roleplay-2417c5e65ae4196a4c0d9b3830dff139067583d0"
+        },
+        {
+            "version": "fafdaa186fe608d468c7984af7195dbe8664c887",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/fafdaa186fe608d468c7984af7195dbe8664c887.zip",
+            "path": "redem_roleplay-fafdaa186fe608d468c7984af7195dbe8664c887"
+        },
+        {
+            "version": "4daacb3f597cfae7a3217e9c25f6185033e037c6",
+            "download": "https://github.com/RedEM-RP/redem_roleplay/archive/4daacb3f597cfae7a3217e9c25f6185033e037c6.zip",
+            "path": "redem_roleplay-4daacb3f597cfae7a3217e9c25f6185033e037c6"
+        }
+    ]
+}
