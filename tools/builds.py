@@ -7,35 +7,27 @@ import requests
 
 # For more information, see https://regexr.com/4nl34
 REGEX = "\\.\\/([0-9]{3,4}-[0-9a-z]{40})\\/(server\\.zip|fx\\.tar\\.xz)"
-# The URLs of the pages that contain the list of resources
-PAGES = {
-    "fivem": "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/",
-    "fivem.linux": "https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/",
-    "redm": "https://runtime.fivem.net/artifacts/fivem/build_client_rdr3/master/",
-}
 
 
 def generate_builds():
     """
     Downloads and Parses the FiveM and RedM builds into JSON lists.
     """
-    # Iterate over the web pages available
-    for filename, url in PAGES.items():
-        # Make the web request for the URL
-        req = requests.get(url)
-        # If we got a non 200, continue to the next iteration
-        if req.status_code != 200:
-            print(f"Got code {req.status_code}")
-            continue
+    # Make the web request for the URL
+    req = requests.get("https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/")
+    # If we got a non 200, continue to the next iteration
+    if req.status_code != 200:
+        print(f"Got code {req.status_code} while updating builds!")
+        return
 
-        # Try to get the parsed list of builds
-        builds = parse_builds(req.text)
-        # Then, open a file with the correct name
-        with open(f"builds/{filename}.json", "w") as file:
-            # Dump the list as a JSON
-            json.dump(builds, file, indent=4)
-            # And write a new line at the end
-            file.write("\n")
+    # Try to get the parsed list of builds
+    builds = parse_builds(req.text)
+    # Then, open a file with the correct name
+    with open("builds.json", "w") as file:
+        # Dump the list as a JSON
+        json.dump(builds, file, indent=4)
+        # And write a new line at the end
+        file.write("\n")
 
 
 def parse_builds(text):
