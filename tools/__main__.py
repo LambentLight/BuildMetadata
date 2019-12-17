@@ -1,3 +1,4 @@
+import os
 import sys
 
 from .builds import generate_builds
@@ -21,6 +22,8 @@ def main():
     if mode == "all" or mode == "builds":
         generate_builds()
     if mode == "all" or mode == "versions":
+        if "GITHUB_TOKEN" not in os.environ:
+            sys.exit("A GitHub Token is required for updating all of the versions at the same time..")
         update_versions()
     if mode == "all" or mode == "versionmanual":
         name = input("Name of the file that you want to update > ")

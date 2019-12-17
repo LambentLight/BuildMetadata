@@ -1,3 +1,5 @@
+import os
+
 import requests
 from packaging.specifiers import SpecifierSet, InvalidSpecifier
 from packaging.version import Version, InvalidVersion
@@ -5,6 +7,12 @@ from packaging.version import Version, InvalidVersion
 DL_ZIPBALL = "https://github.com/{0}/{1}/archive/{2}.zip"
 API_RELEASES = "https://api.github.com/repos/{0}/{1}/releases"
 COMMIT_RELEASES = "https://api.github.com/repos/{0}/{1}/commits"
+HEADERS = {
+    "Accept": "application/vnd.github.v3+json",
+    "User-Agent": "LambentLight Metadata Generator (+https://github.com/LambentLight/Metadata)"
+}
+if "GITHUB_TOKEN" in os.environ:
+    HEADERS["Authorization"] = "token " + os.environ["GITHUB_TOKEN"]
 
 
 def get_commits(**kwargs):
@@ -20,7 +28,7 @@ def get_commits(**kwargs):
     # Create a place for storing the releases
     releases = []
     # Make the GET request
-    get = requests.get(COMMIT_RELEASES.format(owner, repo))
+    get = requests.get(COMMIT_RELEASES.format(owner, repo), headers=HEADERS)
 
     # If the request is not 200, return the empty list
     if get.status_code != 200:
@@ -54,7 +62,7 @@ def get_releases(**kwargs):
     # Create a place for storing the releases
     releases = []
     # Make the GET request
-    get = requests.get(API_RELEASES.format(owner, repo))
+    get = requests.get(API_RELEASES.format(owner, repo), headers=HEADERS)
 
     # If the request is not 200, return the empty list
     if get.status_code != 200:
