@@ -3,10 +3,18 @@ import json
 from os.path import isfile
 
 from .github import get_commits, get_releases
-from .parsing import ensure_input, parse_bool, parse_int
+from .parsing import ensure_input, parse_bool, parse_game, parse_int
 
 
-def update_list():
+def update_lists():
+    """
+    Updates the resource list of Red Dead Redemption 2 and Grand Theft Auto V.
+    """
+    update_list("gtav")
+    update_list("rdr2")
+
+
+def update_list(game):
     """
     Updates the basic list of Resources (list.json) from the extended metadata.
     """
@@ -14,7 +22,7 @@ def update_list():
     resources = []
 
     # Iterate over the files in the metadata folder
-    for file in get_files():
+    for file in get_files(game):
         # Open it up and load the contents
         with open(file, "r+") as opened:
             # Get the information of the resource
@@ -23,7 +31,7 @@ def update_list():
             resources.append(data["info"])
 
     # Then, open the list of resources and extract them
-    with open("resources/list.json", "w") as opened:
+    with open(f"resources\\{game}.json", "w") as opened:
         # Dump the contents of the list
         json.dump(resources, opened, indent=4)
         # And write a new line at the end
@@ -76,8 +84,11 @@ def update_versions():
     Generates the list.json file with the names of the resources.
     """
     # Iterate over the files in the metadata folder
-    for file in get_files():
+    for file in get_files("gtav"):
         # And update every single one of them
+        update_version(file)
+    # Repeat the same for the other folder
+    for file in get_files("rdr2"):
         update_version(file)
 
 
@@ -86,6 +97,7 @@ def create_new():
     Creates a new resource file step by step.
     """
     # Ask the user for basic input
+    game = parse_game(ensure_input("With what game does this resource works? [gtav,rdr2] > "))
     name = ensure_input("What is the name of the resource? [] > ")
     author = ensure_input("Who is the author of the resource? [] > ")
     destination = ensure_input("What is the destination folder of the resource? [] > ")
@@ -147,7 +159,7 @@ def create_new():
         del data["requires"]
 
     # Create the destination path of the file
-    file_path = f"resources\\gtav\\{name}.json"
+    file_path = f"resources\\{game}\\{name}.json"
     # Open the file for writing
     with open(file_path, "w") as opened:
         # Dump the new resource information
@@ -165,11 +177,11 @@ def create_new():
             update_version(file_path)
 
     # Finally, update the list of resources to add the new one
-    update_list()
+    update_list(game)
 
 
-def get_files():
+def get_files(game):
     """
     Gets a file iterator for the resources/metadata directory.
     """
-    return glob.iglob("resources/gtav/*.json")
+    return glob.iglob(f"resources\\{game}\\*.json")

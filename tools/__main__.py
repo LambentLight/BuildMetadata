@@ -2,7 +2,7 @@ import os
 import sys
 
 from .builds import generate_builds
-from .resources import update_list, update_version, create_new, update_versions
+from .resources import update_lists, update_version, create_new, update_versions
 
 
 def main():
@@ -31,7 +31,7 @@ def main():
     if mode == "all" or mode == "new":
         create_new()
     if mode == "all" or mode == "list":
-        update_list()
+        update_lists()
 
 
 if __name__ == "__main__":

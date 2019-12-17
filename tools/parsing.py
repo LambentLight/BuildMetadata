@@ -1,5 +1,7 @@
 YES = ["true", "yes", "y", "si", "s", "1"]
 NO = ["false", "no", "n", "0"]
+GTAV = ["gtav", "gta", "v"]
+RDR2 = ["rdr2", "rdr", "2", "red"]
 
 
 def ensure_input(message, default=None):
@@ -22,6 +24,18 @@ def ensure_input(message, default=None):
 
     # Finally, return the input of the user
     return user_input
+
+
+def parse_game(source):
+    """
+    Chooses between Grand Theft Auto V and Red Dead Redemption 2.
+    """
+    if source.lower() in GTAV:
+        return "gtav"
+    elif source.lower() in RDR2:
+        return "rdr2"
+    else:
+        return "gtav"
 
 
 def parse_bool(source, default=False):
