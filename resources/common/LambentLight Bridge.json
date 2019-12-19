@@ -1,0 +1,28 @@
+{
+    "info": {
+        "name": "LambentLight Bridge",
+        "author": "LambentLight"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "LambentLight",
+            "repo": "Bridge",
+            "patches": {
+                "*": {
+                    "path": ""
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "lambentlight"
+    },
+    "versions": [
+        {
+            "version": "0.1",
+            "download": "https://github.com/LambentLight/Bridge/releases/download/v0.1/Bridge.7z",
+            "path": ""
+        }
+    ]
+}
