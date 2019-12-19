@@ -19,7 +19,7 @@ jobs:
       - name: Generate the list of Builds
         run: python3.6 -m tools builds
         env:
-          - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changed files
         uses: stefanzweifel/git-auto-commit-action@v2.1.0
         with:
