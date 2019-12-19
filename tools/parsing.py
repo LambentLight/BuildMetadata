@@ -2,6 +2,8 @@ YES = ["true", "yes", "y", "si", "s", "1"]
 NO = ["false", "no", "n", "0"]
 GTAV = ["gtav", "gta", "v"]
 RDR2 = ["rdr2", "rdr", "2", "red"]
+COMMON = ["common", "shared", "both", "none", "s"]
+GAMES = [GTAV[0], RDR2[0], COMMON[0]]
 
 
 def ensure_input(message, default=None):
@@ -34,6 +36,8 @@ def parse_game(source):
         return "gtav"
     elif source.lower() in RDR2:
         return "rdr2"
+    elif source.lower() in COMMON:
+        return "common"
     else:
         return "gtav"
 

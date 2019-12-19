@@ -3,15 +3,17 @@ import json
 from os.path import isfile
 
 from .github import get_commits, get_releases
-from .parsing import ensure_input, parse_bool, parse_game, parse_int
+from .parsing import GAMES, ensure_input, parse_bool, parse_game, parse_int
 
 
 def update_lists():
     """
     Updates the resource list of Red Dead Redemption 2 and Grand Theft Auto V.
     """
-    update_list("gtav")
-    update_list("rdr2")
+    # Iterate over the list of games
+    for game in GAMES:
+        # Update the small list
+        update_list(game)
 
 
 def update_list(game):
@@ -83,13 +85,12 @@ def update_versions():
     """
     Generates the list.json file with the names of the resources.
     """
-    # Iterate over the files in the metadata folder
-    for file in get_files("gtav"):
-        # And update every single one of them
-        update_version(file)
-    # Repeat the same for the other folder
-    for file in get_files("rdr2"):
-        update_version(file)
+    # Iterate over the games that we have available
+    for game in [GAMES]:
+        # Iterate over the files in the metadata folder
+        for file in get_files(game):
+            # And update every single one of them
+            update_version(file)
 
 
 def create_new():
@@ -97,7 +98,7 @@ def create_new():
     Creates a new resource file step by step.
     """
     # Ask the user for basic input
-    game = parse_game(ensure_input("With what game does this resource works? [gtav,rdr2] > "))
+    game = parse_game(ensure_input("With what game does this resource works? [gtav,rdr2,common] > "))
     name = ensure_input("What is the name of the resource? [] > ")
     author = ensure_input("Who is the author of the resource? [] > ")
     destination = ensure_input("What is the destination folder of the resource? [] > ")
