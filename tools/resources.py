@@ -131,7 +131,7 @@ def create_new():
         repo = ensure_input("What is the name of the GitHub repository? [] > ")
         releases = parse_bool(ensure_input("Should GitHub Releases be included? [y/n] > ", True))
         commits = parse_int(ensure_input("How many commits should be included? (zero to disable) [0] > "), 0)
-        path = ensure_input("What is the path of the resource folder inside of the compressed file? [] > ")
+        path = ensure_input("What is the path of the resource folder inside of the compressed file? [] > ", "")
 
         # And add those values
         data["update"] = {
