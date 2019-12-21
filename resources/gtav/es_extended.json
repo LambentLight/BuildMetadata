@@ -1,0 +1,28 @@
+{
+    "info": {
+        "name": "es_extended",
+        "author": "ESX-Org"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "velotoxicsounds",
+            "repo": "es_extended",
+            "patches": {
+                "*": {
+                    "path": "es_extended"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "es_extended"
+    },
+    "versions": [
+        {
+            "version": "1.1.0",
+            "download": "https://github.com/velotoxicsounds/es_extended/releases/download/1.1.0/es_extended.zip",
+            "path": "es_extended"
+        }
+    ]
+}

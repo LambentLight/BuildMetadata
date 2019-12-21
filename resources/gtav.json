@@ -212,6 +212,10 @@
         "author": "ESX"
     },
     {
+        "name": "es_extended",
+        "author": "ESX-Org"
+    },
+    {
         "name": "Fix Holes in the Map",
         "author": "Bob74"
     },
