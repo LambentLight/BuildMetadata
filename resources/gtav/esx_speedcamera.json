@@ -26,11 +26,5 @@
         "InteractSound",
         "ESX_PHONE"
     ],
-    "versions": [
-        {
-            "version": "1.0.0",
-            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/master.zip",
-            "path": "esx_speedcamera-master"
-        }
-    ]
+    "versions": []
 }
