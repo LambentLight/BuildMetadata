@@ -232,6 +232,10 @@
         "author": "ESX"
     },
     {
+        "name": "interact-sound",
+        "author": "plunkettscott"
+    },
+    {
         "name": "LiveMap",
         "author": "TGRHavoc"
     },

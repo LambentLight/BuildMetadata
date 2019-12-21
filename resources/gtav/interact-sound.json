@@ -1,0 +1,28 @@
+{
+    "info": {
+        "name": "interact-sound",
+        "author": "plunkettscott"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "velotoxicsounds",
+            "repo": "interact-sound",
+            "patches": {
+                "*": {
+                    "path": "interact-sound"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "interact-sound"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "download": "https://github.com/velotoxicsounds/interact-sound/releases/download/1.0/interact-sound.zip",
+            "path": "interact-sound"
+        }
+    ]
+}
