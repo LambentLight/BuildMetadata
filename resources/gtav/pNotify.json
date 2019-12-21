@@ -1,0 +1,28 @@
+{
+    "info": {
+        "name": "pNotify",
+        "author": "Nick78111"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "velotoxicsounds",
+            "repo": "pNotify",
+            "patches": {
+                "*": {
+                    "path": "pNotify"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "pNotify"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "download": "https://github.com/velotoxicsounds/pNotify/releases/download/1.0/pNotify.zip",
+            "path": "pNotify"
+        }
+    ]
+}

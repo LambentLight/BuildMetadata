@@ -253,6 +253,10 @@
         "superseded": "NativeUILua Reloaded"
     },
     {
+        "name": "pNotify",
+        "author": "Nick78111"
+    },
+    {
         "name": "SecurityCams for ESX",
         "author": "LifeGoal"
     },
