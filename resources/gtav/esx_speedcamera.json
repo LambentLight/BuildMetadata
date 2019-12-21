@@ -1,0 +1,36 @@
+{
+    "info": {
+        "name": "esx_speedcamera",
+        "author": "P4NDAzzGaming"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "velotoxicsounds",
+            "repo": "esx_speedcamera",
+            "patches": {
+                "*": {
+                    "path": "esx_speedcamera"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_speedcamera"
+    },
+    "requires": [
+        "ES_EXTENDED",
+        "ESX_BILLING",
+        "ESX_POLICEJOB",
+        "pNotify",
+        "InteractSound",
+        "ESX_PHONE"
+    ],
+    "versions": [
+        {
+            "version": "1.0",
+            "download": "https://github.com/velotoxicsounds/esx_speedcamera/releases/download/1.0/esx_speedcamera.zip",
+            "path": "esx_speedcamera"
+        }
+    ]
+}
