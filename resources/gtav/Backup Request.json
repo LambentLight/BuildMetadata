@@ -21,7 +21,8 @@
         "destination": "backup"
     },
     "requires": [
-        "mythic_notify"
+        "mythic_notify",
+        "pNotify"
     ],
     "versions": [
         {
