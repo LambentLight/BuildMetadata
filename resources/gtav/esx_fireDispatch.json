@@ -1,0 +1,43 @@
+{
+    "info": {
+        "name": "esx_fireDispatch",
+        "author": "foregz"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "Pyth3rEx",
+            "repo": "esx_fireDispatch",
+            "patches": {
+                "*": {
+                    "path": "esx_fireDispatch-{}/_ThingsForTheMachine"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "esx_fireDispatch"
+    },
+    "versions": [
+        {
+            "version": "1.3_f",
+            "download": "https://github.com/Pyth3rEx/esx_fireDispatch/archive/1.3_f.zip",
+            "path": "esx_fireDispatch-1.3_f/_ThingsForTheMachine"
+        },
+        {
+            "version": "1.2_f",
+            "download": "https://github.com/Pyth3rEx/esx_fireDispatch/archive/1.2_f.zip",
+            "path": "esx_fireDispatch-1.2_f/_ThingsForTheMachine"
+        },
+        {
+            "version": "1.1_f",
+            "download": "https://github.com/Pyth3rEx/esx_fireDispatch/archive/v1.1_f.zip",
+            "path": "esx_fireDispatch-1.1_f/_ThingsForTheMachine"
+        },
+        {
+            "version": "1.0_f",
+            "download": "https://github.com/Pyth3rEx/esx_fireDispatch/archive/v1.0_f.zip",
+            "path": "esx_fireDispatch-1.0_f/_ThingsForTheMachine"
+        }
+    ]
+}

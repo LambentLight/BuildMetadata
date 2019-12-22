@@ -1,0 +1,39 @@
+{
+    "info": {
+        "name": "Backup Request",
+        "author": "Prebs"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "antisocial-gaming-network",
+            "repo": "backup-request",
+            "patches": {
+                "*": {
+                    "path": "backup-request-{}/backup"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "backup"
+    },
+    "requires": [
+        "mythic_notify",
+        "pNotify"
+    ],
+    "versions": [
+        {
+            "version": "53fd00eab0995de2393ac3d46e6b577213e4e2db",
+            "download": "https://github.com/antisocial-gaming-network/backup-request/archive/53fd00eab0995de2393ac3d46e6b577213e4e2db.zip",
+            "path": "backup-request-53fd00eab0995de2393ac3d46e6b577213e4e2db/backup"
+        },
+        {
+            "version": "26aadca19ce39e32fa205a4f5a560b3a8e30947d",
+            "download": "https://github.com/antisocial-gaming-network/backup-request/archive/26aadca19ce39e32fa205a4f5a560b3a8e30947d.zip",
+            "path": "backup-request-26aadca19ce39e32fa205a4f5a560b3a8e30947d/backup"
+        }
+    ]
+}

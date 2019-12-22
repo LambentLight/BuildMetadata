@@ -1,0 +1,43 @@
+{
+    "info": {
+        "name": "Interact Sound",
+        "author": "Scott"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "plunkettscott",
+            "repo": "interact-sound",
+            "patches": {
+                "*": {
+                    "path": "interact-sound-{}"
+                }
+            }
+        }
+    },
+    "install": {
+        "destination": "interact-sound"
+    },
+    "versions": [
+        {
+            "version": "0.4.1",
+            "download": "https://github.com/plunkettscott/interact-sound/archive/0.4.1.zip",
+            "path": "interact-sound-0.4.1"
+        },
+        {
+            "version": "0.4",
+            "download": "https://github.com/plunkettscott/interact-sound/archive/0.4.zip",
+            "path": "interact-sound-0.4"
+        },
+        {
+            "version": "0.3",
+            "download": "https://github.com/plunkettscott/interact-sound/archive/0.3.zip",
+            "path": "interact-sound-0.3"
+        },
+        {
+            "version": "0.2.1",
+            "download": "https://github.com/plunkettscott/interact-sound/archive/0.2.1.zip",
+            "path": "interact-sound-0.2.1"
+        }
+    ]
+}

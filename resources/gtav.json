@@ -4,6 +4,10 @@
         "author": "ESX"
     },
     {
+        "name": "Backup Request",
+        "author": "Prebs"
+    },
+    {
         "name": "Cops",
         "author": "Kyominii"
     },
@@ -90,6 +94,10 @@
     {
         "name": "esx_drugs",
         "author": "ESX"
+    },
+    {
+        "name": "esx_fireDispatch",
+        "author": "foregz"
     },
     {
         "name": "esx_garage",
@@ -180,6 +188,10 @@
         "author": "ESX"
     },
     {
+        "name": "esx_speedcamera",
+        "author": "P4NDAzzGaming"
+    },
+    {
         "name": "esx_status",
         "author": "ESX"
     },
@@ -224,6 +236,10 @@
         "author": "ESX"
     },
     {
+        "name": "Interact Sound",
+        "author": "Scott"
+    },
+    {
         "name": "LiveMap",
         "author": "TGRHavoc"
     },
@@ -240,6 +256,10 @@
         "author": "brouznouf"
     },
     {
+        "name": "mythic_notify",
+        "author": "Alzar"
+    },
+    {
         "name": "NativeUILua Reloaded",
         "author": "iTexZoz"
     },
@@ -247,6 +267,10 @@
         "name": "NativeUILua",
         "author": "FrazzIe",
         "superseded": "NativeUILua Reloaded"
+    },
+    {
+        "name": "pNotify",
+        "author": "Nick78111"
     },
     {
         "name": "SecurityCams for ESX",

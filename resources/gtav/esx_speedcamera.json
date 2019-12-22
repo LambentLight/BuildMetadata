@@ -1,0 +1,73 @@
+{
+    "info": {
+        "name": "esx_speedcamera",
+        "author": "P4NDAzzGaming"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "P4NDAzzGaming",
+            "repo": "esx_speedcamera",
+            "patches": {
+                "*": {
+                    "path": "esx_speedcamera-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "esx_speedcamera"
+    },
+    "requires": [
+        "ESX",
+        "esx_billing",
+        "esx_policejob",
+        "pNotify",
+        "Interact Sound",
+        "esx_phone"
+    ],
+    "versions": [
+        {
+            "version": "df678ee641c30fc9630ecbc7a0c154787f620d48",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/df678ee641c30fc9630ecbc7a0c154787f620d48.zip",
+            "path": "esx_speedcamera-df678ee641c30fc9630ecbc7a0c154787f620d48"
+        },
+        {
+            "version": "48e71fba3f41a0fe76f1291327bd8f792154038f",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/48e71fba3f41a0fe76f1291327bd8f792154038f.zip",
+            "path": "esx_speedcamera-48e71fba3f41a0fe76f1291327bd8f792154038f"
+        },
+        {
+            "version": "7af63fd3712118877ac0f6ae6b91d2f022ed9e72",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/7af63fd3712118877ac0f6ae6b91d2f022ed9e72.zip",
+            "path": "esx_speedcamera-7af63fd3712118877ac0f6ae6b91d2f022ed9e72"
+        },
+        {
+            "version": "a62dcdb2e1844b31cb6200290fee0e4167f49980",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/a62dcdb2e1844b31cb6200290fee0e4167f49980.zip",
+            "path": "esx_speedcamera-a62dcdb2e1844b31cb6200290fee0e4167f49980"
+        },
+        {
+            "version": "a50978d3805d96c76fdc4f1603e562776c274042",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/a50978d3805d96c76fdc4f1603e562776c274042.zip",
+            "path": "esx_speedcamera-a50978d3805d96c76fdc4f1603e562776c274042"
+        },
+        {
+            "version": "98a77c481e377827c3a938f7b237e0f549b2e440",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/98a77c481e377827c3a938f7b237e0f549b2e440.zip",
+            "path": "esx_speedcamera-98a77c481e377827c3a938f7b237e0f549b2e440"
+        },
+        {
+            "version": "4b11601d81acc4dfb133b80b0caee330640c795f",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/4b11601d81acc4dfb133b80b0caee330640c795f.zip",
+            "path": "esx_speedcamera-4b11601d81acc4dfb133b80b0caee330640c795f"
+        },
+        {
+            "version": "4d6f81d61c05da93dd5c3b4fc2d151feab79fcf8",
+            "download": "https://github.com/P4NDAzzGaming/esx_speedcamera/archive/4d6f81d61c05da93dd5c3b4fc2d151feab79fcf8.zip",
+            "path": "esx_speedcamera-4d6f81d61c05da93dd5c3b4fc2d151feab79fcf8"
+        }
+    ]
+}

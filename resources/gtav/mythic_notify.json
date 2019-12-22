@@ -1,0 +1,160 @@
+{
+    "info": {
+        "name": "mythic_notify",
+        "author": "Alzar"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "mythicrp",
+            "repo": "mythic_notify",
+            "patches": {
+                "*": {
+                    "path": "mythic_notify-{}"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "mythic_notify"
+    },
+    "versions": [
+        {
+            "version": "9a3f731e104668698ac732239ab22377dde34546",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/9a3f731e104668698ac732239ab22377dde34546.zip",
+            "path": "mythic_notify-9a3f731e104668698ac732239ab22377dde34546"
+        },
+        {
+            "version": "a3bf43ae0f4f971b315729dbdab8e78996426ed9",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/a3bf43ae0f4f971b315729dbdab8e78996426ed9.zip",
+            "path": "mythic_notify-a3bf43ae0f4f971b315729dbdab8e78996426ed9"
+        },
+        {
+            "version": "b9310dd94170d3aa4b4628cbec364261bebb4d94",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/b9310dd94170d3aa4b4628cbec364261bebb4d94.zip",
+            "path": "mythic_notify-b9310dd94170d3aa4b4628cbec364261bebb4d94"
+        },
+        {
+            "version": "de69c22975bd365357446b1cad9569142bcca5df",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/de69c22975bd365357446b1cad9569142bcca5df.zip",
+            "path": "mythic_notify-de69c22975bd365357446b1cad9569142bcca5df"
+        },
+        {
+            "version": "c2a2d6f921ba15b2fef80e7bcf52f5a4091c4c3b",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/c2a2d6f921ba15b2fef80e7bcf52f5a4091c4c3b.zip",
+            "path": "mythic_notify-c2a2d6f921ba15b2fef80e7bcf52f5a4091c4c3b"
+        },
+        {
+            "version": "790f87610be8ba152eef4a2df778eca2bb28f47d",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/790f87610be8ba152eef4a2df778eca2bb28f47d.zip",
+            "path": "mythic_notify-790f87610be8ba152eef4a2df778eca2bb28f47d"
+        },
+        {
+            "version": "cf300d9f2cd9378ba6dd4e71ea8dadbe197aa08e",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/cf300d9f2cd9378ba6dd4e71ea8dadbe197aa08e.zip",
+            "path": "mythic_notify-cf300d9f2cd9378ba6dd4e71ea8dadbe197aa08e"
+        },
+        {
+            "version": "7989c9f89421954e9f7b8152d52f7871e9cb0bda",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/7989c9f89421954e9f7b8152d52f7871e9cb0bda.zip",
+            "path": "mythic_notify-7989c9f89421954e9f7b8152d52f7871e9cb0bda"
+        },
+        {
+            "version": "2b80a32ea2eb96f3080e7c8fe9b24efea7aac0b9",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/2b80a32ea2eb96f3080e7c8fe9b24efea7aac0b9.zip",
+            "path": "mythic_notify-2b80a32ea2eb96f3080e7c8fe9b24efea7aac0b9"
+        },
+        {
+            "version": "f7f7d1be41276b96edec010aad2c089b35a47263",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/f7f7d1be41276b96edec010aad2c089b35a47263.zip",
+            "path": "mythic_notify-f7f7d1be41276b96edec010aad2c089b35a47263"
+        },
+        {
+            "version": "cd31e32c1f7815c5ceae62757da314c91e8b6c64",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/cd31e32c1f7815c5ceae62757da314c91e8b6c64.zip",
+            "path": "mythic_notify-cd31e32c1f7815c5ceae62757da314c91e8b6c64"
+        },
+        {
+            "version": "991175e74f261e07e157377f5fa1d1ebeb39d288",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/991175e74f261e07e157377f5fa1d1ebeb39d288.zip",
+            "path": "mythic_notify-991175e74f261e07e157377f5fa1d1ebeb39d288"
+        },
+        {
+            "version": "542b2931a13c9d8596d4ed858b47ee9eaa4fa11e",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/542b2931a13c9d8596d4ed858b47ee9eaa4fa11e.zip",
+            "path": "mythic_notify-542b2931a13c9d8596d4ed858b47ee9eaa4fa11e"
+        },
+        {
+            "version": "80b3de2a7efd5ea7bdb6de6f63ae03fdad3ebe3f",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/80b3de2a7efd5ea7bdb6de6f63ae03fdad3ebe3f.zip",
+            "path": "mythic_notify-80b3de2a7efd5ea7bdb6de6f63ae03fdad3ebe3f"
+        },
+        {
+            "version": "10c46b6cd263e72d5c96dcf6bb9d2b2238c16084",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/10c46b6cd263e72d5c96dcf6bb9d2b2238c16084.zip",
+            "path": "mythic_notify-10c46b6cd263e72d5c96dcf6bb9d2b2238c16084"
+        },
+        {
+            "version": "2be7211ab4858d0c0a9fd53631c06d50788dc3cc",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/2be7211ab4858d0c0a9fd53631c06d50788dc3cc.zip",
+            "path": "mythic_notify-2be7211ab4858d0c0a9fd53631c06d50788dc3cc"
+        },
+        {
+            "version": "090eb21bf294782931b4901081a862dc6be2acdc",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/090eb21bf294782931b4901081a862dc6be2acdc.zip",
+            "path": "mythic_notify-090eb21bf294782931b4901081a862dc6be2acdc"
+        },
+        {
+            "version": "661984d4ea1ff7e12412568394445763780501e5",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/661984d4ea1ff7e12412568394445763780501e5.zip",
+            "path": "mythic_notify-661984d4ea1ff7e12412568394445763780501e5"
+        },
+        {
+            "version": "7ba5988f7a1d8b9194806c0b18c3733fe1373e11",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/7ba5988f7a1d8b9194806c0b18c3733fe1373e11.zip",
+            "path": "mythic_notify-7ba5988f7a1d8b9194806c0b18c3733fe1373e11"
+        },
+        {
+            "version": "fe9c1fd9f996ea1aec8d699813423b9e79b4ac42",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/fe9c1fd9f996ea1aec8d699813423b9e79b4ac42.zip",
+            "path": "mythic_notify-fe9c1fd9f996ea1aec8d699813423b9e79b4ac42"
+        },
+        {
+            "version": "83f6977e10f39bdbff6e5ac90916b144d639e315",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/83f6977e10f39bdbff6e5ac90916b144d639e315.zip",
+            "path": "mythic_notify-83f6977e10f39bdbff6e5ac90916b144d639e315"
+        },
+        {
+            "version": "021b87c87eef4708893b2a5c956c8168c3bee4e1",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/021b87c87eef4708893b2a5c956c8168c3bee4e1.zip",
+            "path": "mythic_notify-021b87c87eef4708893b2a5c956c8168c3bee4e1"
+        },
+        {
+            "version": "c3caf8ee05e863a7787c74dbe378d301d1902853",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/c3caf8ee05e863a7787c74dbe378d301d1902853.zip",
+            "path": "mythic_notify-c3caf8ee05e863a7787c74dbe378d301d1902853"
+        },
+        {
+            "version": "430d22bf738e5c5c0dcf09c2a6e3f10b8702f157",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/430d22bf738e5c5c0dcf09c2a6e3f10b8702f157.zip",
+            "path": "mythic_notify-430d22bf738e5c5c0dcf09c2a6e3f10b8702f157"
+        },
+        {
+            "version": "8302442e42ae03051f89ab03cd590e994e254e95",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/8302442e42ae03051f89ab03cd590e994e254e95.zip",
+            "path": "mythic_notify-8302442e42ae03051f89ab03cd590e994e254e95"
+        },
+        {
+            "version": "692d945b4ddbdeda3551424233b4757b08a065f6",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/692d945b4ddbdeda3551424233b4757b08a065f6.zip",
+            "path": "mythic_notify-692d945b4ddbdeda3551424233b4757b08a065f6"
+        },
+        {
+            "version": "561c89543416968f5ebcb15869dd4c873bae24a2",
+            "download": "https://github.com/mythicrp/mythic_notify/archive/561c89543416968f5ebcb15869dd4c873bae24a2.zip",
+            "path": "mythic_notify-561c89543416968f5ebcb15869dd4c873bae24a2"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "info": {
+        "name": "pNotify",
+        "author": "Nick78111"
+    },
+    "update": {
+        "type": 1,
+        "parameters": {
+            "owner": "Nick78111",
+            "repo": "pNotify",
+            "patches": {
+                "*": {
+                    "path": "pNotify-{}/pNotify"
+                }
+            },
+            "skip_releases": true,
+            "commits": 15
+        }
+    },
+    "install": {
+        "destination": "pNotify"
+    },
+    "versions": [
+        {
+            "version": "d8c135071cd82c5ae48329786b1e5d17a30fcb21",
+            "download": "https://github.com/Nick78111/pNotify/archive/d8c135071cd82c5ae48329786b1e5d17a30fcb21.zip",
+            "path": "pNotify-d8c135071cd82c5ae48329786b1e5d17a30fcb21/pNotify"
+        },
+        {
+            "version": "296cded713a8c616ef6db846643356842d36e68d",
+            "download": "https://github.com/Nick78111/pNotify/archive/296cded713a8c616ef6db846643356842d36e68d.zip",
+            "path": "pNotify-296cded713a8c616ef6db846643356842d36e68d/pNotify"
+        }
+    ]
+}
