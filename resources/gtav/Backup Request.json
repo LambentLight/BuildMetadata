@@ -1,6 +1,6 @@
 {
     "info": {
-        "name": "backup-request",
+        "name": "Backup-Request",
         "author": "Prebs"
     },
     "update": {
@@ -18,8 +18,12 @@
         }
     },
     "install": {
-        "destination": "backup-request"
+        "destination": "backup"
     },
+    "requires": [
+        "mythic_notify",
+        "pNotify"
+    ],
     "versions": [
         {
             "version": "53fd00eab0995de2393ac3d46e6b577213e4e2db",

@@ -4,8 +4,8 @@
         "author": "ESX"
     },
     {
-        "name": "backup-request",
-        "author": "antisocial-gaming-network"
+        "name": "Backup Request",
+        "author": "Prebs"
     },
     {
         "name": "Cops",
@@ -254,6 +254,10 @@
     {
         "name": "mysql-async",
         "author": "brouznouf"
+    },
+    {
+        "name": "mythic_notify",
+        "author": "Alzar"
     },
     {
         "name": "NativeUILua Reloaded",
