@@ -18,7 +18,7 @@
         }
     },
     "install": {
-        "destination": "backup-request"
+        "destination": "backup"
     },
     "versions": [
         {
