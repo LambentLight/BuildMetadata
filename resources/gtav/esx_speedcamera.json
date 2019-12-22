@@ -25,7 +25,7 @@
         "ESX_BILLING",
         "ESX_POLICEJOB",
         "pNotify",
-        "InteractSound",
+        "interact-sound",
         "ESX_PHONE"
     ],
     "versions": [
