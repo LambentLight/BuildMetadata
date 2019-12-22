@@ -20,6 +20,9 @@
     "install": {
         "destination": "backup"
     },
+    "requires": [
+        "mythic_notify"
+    ],
     "versions": [
         {
             "version": "53fd00eab0995de2393ac3d46e6b577213e4e2db",
