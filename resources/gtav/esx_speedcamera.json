@@ -1,7 +1,7 @@
 {
     "info": {
         "name": "esx_speedcamera",
-        "author": "P4NDA_GamingV2"
+        "author": "P4NDAzzGaming"
     },
     "update": {
         "type": 1,
@@ -21,12 +21,12 @@
         "destination": "esx_speedcamera"
     },
     "requires": [
-        "ES_EXTENDED",
-        "ESX_BILLING",
-        "ESX_POLICEJOB",
+        "ESX",
+        "esx_billing",
+        "esx_policejob",
         "pNotify",
-        "interact-sound",
-        "ESX_PHONE"
+        "Interact Sound",
+        "esx_phone"
     ],
     "versions": [
         {
