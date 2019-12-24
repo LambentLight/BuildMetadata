@@ -2,6 +2,7 @@ import os
 import sys
 
 from .builds import generate_builds
+from .newrepo import create_new_repo
 from .resources import update_lists, update_version, create_new, update_versions
 
 
@@ -19,6 +20,8 @@ def main():
         mode = sys.argv[1]
 
     # Now, run the correct function for the selected mode
+    if mode == "newrepo":
+        create_new_repo()
     if mode == "all" or mode == "builds":
         generate_builds()
     if mode == "all" or mode == "versions":
