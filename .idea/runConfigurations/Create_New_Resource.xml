@@ -21,7 +21,7 @@
         <ENTRY IS_ENABLED="true" PARSER="runconfig" />
       </ENTRIES>
     </EXTENSION>
-    <option name="SCRIPT_NAME" value="tools" />
+    <option name="SCRIPT_NAME" value="lambentlight" />
     <option name="PARAMETERS" value="new" />
     <option name="SHOW_COMMAND_LINE" value="false" />
     <option name="EMULATE_TERMINAL" value="false" />
