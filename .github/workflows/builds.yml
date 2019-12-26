@@ -17,7 +17,7 @@ jobs:
       - name: Install the Python Requirements
         run: python3.6 -m pip install -r requirements.txt
       - name: Generate the list of Builds
-        run: python3.6 -m tools builds
+        run: python3.6 -m lambentlight builds
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changed files
