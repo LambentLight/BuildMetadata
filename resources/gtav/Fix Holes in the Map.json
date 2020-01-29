@@ -10,7 +10,7 @@
             "repo": "bob74_ipl",
             "patches": {
                 "*": {
-                    "path": "bob74_ipl-{}"
+                    "path": "bob74_ipl"
                 }
             }
         }
@@ -22,17 +22,17 @@
         {
             "version": "2.0.8",
             "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.8/bob74_ipl-2.0.8.zip",
-            "path": "bob74_ipl-2.0.8"
+            "path": "bob74_ipl"
         },
         {
             "version": "2.0.7c",
             "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.7c/bob74_ipl-2.0.7c.zip",
-            "path": "bob74_ipl-2.0.7c"
+            "path": "bob74_ipl"
         },
         {
             "version": "2.0.7b",
             "download": "https://github.com/Bob74/bob74_ipl/releases/download/2.0.7b/bob74_ipl-2.0.7b.zip",
-            "path": "bob74_ipl-2.0.7b"
+            "path": "bob74_ipl"
         }
     ]
 }
