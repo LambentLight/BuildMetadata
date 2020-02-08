@@ -3,6 +3,7 @@ import sys
 
 from .builds import generate_builds
 from .newrepo import create_new_repo
+from .parsing import parse_game, ensure_input, COMMON
 from .resources import update_lists, update_version, create_new, update_versions
 
 
@@ -29,8 +30,9 @@ def main():
             sys.exit("A GitHub Token is required for updating all of the versions at the same time..")
         update_versions()
     if mode == "all" or mode == "versionmanual":
-        name = input("Name of the file that you want to update > ")
-        update_version(f"resources/gtav/{name}")
+        game = parse_game(ensure_input("Name of the game that you want to update (gtav, rdr2, common) > ", COMMON[0]))
+        name = ensure_input("Name of the file that you want to update > ")
+        update_version(f"resources/{game}/{name}")
     if mode == "all" or mode == "new":
         create_new()
     if mode == "all" or mode == "list":
