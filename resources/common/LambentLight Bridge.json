@@ -20,6 +20,11 @@
     },
     "versions": [
         {
+            "version": "0.2",
+            "download": "https://github.com/LambentLight/Bridge/releases/download/v0.2/Bridge.7z",
+            "path": ""
+        },
+        {
             "version": "0.1",
             "download": "https://github.com/LambentLight/Bridge/releases/download/v0.1/Bridge.7z",
             "path": ""
