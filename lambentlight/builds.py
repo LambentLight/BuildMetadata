@@ -1,7 +1,7 @@
 # The libraries that we need for parsing the page
 import json
 import re
-
+import random
 import lxml.html
 import requests
 
@@ -14,7 +14,8 @@ def generate_builds():
     Downloads and Parses the FiveM and RedM builds into JSON lists.
     """
     # Make the web request for the URL
-    req = requests.get("https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/")
+    server_url = "https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/?" + str(random.randrange(1,100000))
+    req = requests.get(server_url)
     # If we got a non 200, continue to the next iteration
     if req.status_code != 200:
         print(f"Got code {req.status_code} while updating builds!")
